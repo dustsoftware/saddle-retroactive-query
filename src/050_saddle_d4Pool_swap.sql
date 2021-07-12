@@ -16,14 +16,14 @@ CREATE TEMP FUNCTION
   ( library="https://storage.googleapis.com/ethlab-183014.appspot.com/ethjs-abi.js" );
 
 
-CREATE TABLE usd_swap
+CREATE TABLE aleth_swap
 AS
 (
     SELECT
     DISTINCT
         PARSE_SADDLE_SWAP_EVENTS(logs.data, logs.topics).buyer as buyer
     FROM `bigquery-public-data.crypto_ethereum.logs` AS logs
-    WHERE address = '0x4f6a43ad7cba042606decaca730d4ce0a57ac62e'
+    WHERE address = '0xc69ddcd4dfef25d8a793241834d4cc4b3668ead6'
     AND topics[SAFE_OFFSET(0)] = '0xc6c1e0630dbe9130cc068028486c0d118ddcea348550819defd5cb8c257f8a38'
 );
 
