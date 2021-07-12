@@ -16,7 +16,7 @@ CREATE TEMP FUNCTION
   ( library="https://storage.googleapis.com/ethlab-183014.appspot.com/ethjs-abi.js" );
 
 
-CREATE TABLE aleth_lp_transfer
+CREATE TABLE d4_lp_transfer
 AS
 (
     SELECT
