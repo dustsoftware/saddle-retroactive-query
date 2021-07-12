@@ -43,6 +43,7 @@ jobs:
           - file: "./src/041_saddle_alETHPool_LP.sql"
           - file: "./src/050_saddle_d4Pool_swap.sql"
           - file: "./src/051_saddle_d4Pool_LP.sql"
+          - file: "./src/999_aggregate.sql"
 
     steps:
       - uses: actions/checkout@v2
