@@ -30,6 +30,13 @@ AS
       -- Exclude staking contract
     AND PARSE_SADDLE_LP_TRANSFER_EVENTS(data, topics).from != '0xab8e74017a8cc7c15ffccd726603790d26d7deca'
     AND PARSE_SADDLE_LP_TRANSFER_EVENTS(data, topics).to != '0xab8e74017a8cc7c15ffccd726603790d26d7deca'
+      -- Exclude pickle like jar, strategy, and controller
+    AND PARSE_SADDLE_LP_TRANSFER_EVENTS(data, topics).from != '0xcba1fe4fdbd90531efd929f1a1831f38e91cff1e'
+    AND PARSE_SADDLE_LP_TRANSFER_EVENTS(data, topics).to != '0xcba1fe4fdbd90531efd929f1a1831f38e91cff1e'
+    AND PARSE_SADDLE_LP_TRANSFER_EVENTS(data, topics).from != '0x7b5916c61bceeaa2646cf49d9541ac6f5dce3637'
+    AND PARSE_SADDLE_LP_TRANSFER_EVENTS(data, topics).to != '0x7b5916c61bceeaa2646cf49d9541ac6f5dce3637'
+    AND PARSE_SADDLE_LP_TRANSFER_EVENTS(data, topics).from != '0x0185ee1a1101f9c43c6a33a48faa7edb102f1e30'
+    AND PARSE_SADDLE_LP_TRANSFER_EVENTS(data, topics).to != '0x0185ee1a1101f9c43c6a33a48faa7edb102f1e30'
     AND topics[SAFE_OFFSET(0)] = '0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef'
 );
 
