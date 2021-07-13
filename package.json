@@ -1,0 +1,27 @@
+{
+  "name": "saddle-retroactive-query",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "parse": "ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saddle-finance/saddle-retroactive-query.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saddle-finance/saddle-retroactive-query/issues"
+  },
+  "homepage": "https://github.com/saddle-finance/saddle-retroactive-query#readme",
+  "devDependencies": {
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "ethers": "^5.4.1"
+  }
+}
