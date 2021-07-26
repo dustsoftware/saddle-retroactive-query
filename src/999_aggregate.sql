@@ -22,7 +22,7 @@ AS
 CREATE TABLE retroactive_lp
 AS
     (
-        SELECT block_timestamp, transaction_hash, address_from, address_to, amount, pool
+        SELECT block_number, block_timestamp, transaction_hash, address_from, address_to, amount, pool
         FROM (
                  SELECT *, 'BTC' AS pool FROM btc_lp_transfer
                  UNION ALL

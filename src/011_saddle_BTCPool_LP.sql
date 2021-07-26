@@ -20,6 +20,7 @@ CREATE TABLE btc_lp_transfer
 AS
 (
     SELECT
+        logs.block_number as block_number,
         logs.block_timestamp as block_timestamp,
         logs.transaction_hash as transaction_hash,
         PARSE_SADDLE_LP_TRANSFER_EVENTS(logs.data, logs.topics).from as address_from,
