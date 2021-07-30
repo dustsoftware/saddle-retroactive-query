@@ -1035,13 +1035,13 @@
         "0xa0f75491720835b36edc92d06ddc468d201e9b73": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x0dac543c38523345"
+                "hex": "0x04d59fedeebacfcc23"
             },
-            "lastActionTimestamp": 1611074799,
+            "lastActionTimestamp": 1626853146,
             "firstObservedTimestamp": 1611074799,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x0cdbeddc3c95dbd158e697"
             }
         },
         "0x9b3611abceb1550b7ff2ebd46cf6ae4319130014": {
@@ -1563,13 +1563,13 @@
         "0x66878e0d5536f87d710ae5cd9f632f1d0b6aef0b": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x0da327f5d8fb6f1c"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1611078492,
+            "lastActionTimestamp": 1626287073,
             "firstObservedTimestamp": 1611078492,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x0c5cbd7f0fc42622f2798c"
             }
         },
         "0x618d64611af0a80f77472051077f488f12004daa": {
@@ -2583,9 +2583,9 @@
         "0x00f928a6adc7c345ef919fe5a8be2458580ef9f6": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x0da57704d7ca221a"
             },
-            "lastActionTimestamp": 1623466172,
+            "lastActionTimestamp": 1626598019,
             "firstObservedTimestamp": 1611367557,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
@@ -2739,13 +2739,13 @@
         "0x09cf915e195af33fa7b932c253352ae9fbdb0106": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0xad004fc717f3b748"
             },
-            "lastActionTimestamp": 1624979766,
+            "lastActionTimestamp": 1626953898,
             "firstObservedTimestamp": 1611864488,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0xbd710e0e2eaecf74e1f656"
+                "hex": "0xc4a22742d171d6417a94c5"
             }
         },
         "0x7179a13430cd4bd9dd95d29a13a527ce60805bb0": {
@@ -5727,13 +5727,13 @@
         "0x1118f29a03b218cb81a62ee7f0ec8a16c028223a": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x03285db7c8dfec73"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1614406368,
+            "lastActionTimestamp": 1626405566,
             "firstObservedTimestamp": 1614406368,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x0242265bcd607e56a260ba"
             }
         },
         "0x0036e3a70df619da8e1e569fe50c8b0b8a8e94f9": {
@@ -6459,13 +6459,13 @@
         "0xe3939654deae5f54fd3e6b84b3a7f75f245062d8": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x31ed01376ece4e99"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1619060835,
+            "lastActionTimestamp": 1626338771,
             "firstObservedTimestamp": 1615181126,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x057abc9a974c1d65cd34bd"
+                "hex": "0x1b02029ddbe879e1542f8f"
             }
         },
         "0x1c99d7595f35e2885cddfc51863e7e1e6cb22518": {
@@ -6915,9 +6915,9 @@
         "0x6a5dbf2fb5206ec8192620810c3edb6d5e62b188": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x047c49b7ddea36c9"
             },
-            "lastActionTimestamp": 1625139622,
+            "lastActionTimestamp": 1626765390,
             "firstObservedTimestamp": 1615553932,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
@@ -7155,13 +7155,13 @@
         "0xe8bc3c3e853393e1cd117d03dd502eb7b396ba72": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x2debb2d149b21188"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1618596231,
+            "lastActionTimestamp": 1626242551,
             "firstObservedTimestamp": 1616000376,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x660a63a9886a8cbccf88"
+                "hex": "0x1553c5ddc1c62e600bdb08"
             }
         },
         "0xbbd46439ad25f9b04ad0103d655323a9fe9952af": {
@@ -7239,9 +7239,9 @@
         "0x9eef87f4c08d8934cb2a3309df4dec5635338115": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x028bd928cfa4972c"
             },
-            "lastActionTimestamp": 1623618384,
+            "lastActionTimestamp": 1627011814,
             "firstObservedTimestamp": 1616086209,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
@@ -8079,13 +8079,13 @@
         "0x1c051112075feaee33bcdbe0984c2bb0db53cf47": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x01c09dadb1ea89e17b"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1623198750,
+            "lastActionTimestamp": 1626411534,
             "firstObservedTimestamp": 1618371235,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x7c4c45a1b08572c54f1a47"
+                "hex": "0xd234db88f5ba378084e497"
             }
         },
         "0x9493c461f2fc4418334ed5a251546dde23d1c6d6": {
@@ -8127,13 +8127,13 @@
         "0xed2c2cdec695be3a4dc421c1a8a6756dc5a927b6": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x0d82efa556854445"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1621668409,
+            "lastActionTimestamp": 1626599206,
             "firstObservedTimestamp": 1618460093,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x034df69edb3f275eae2514"
+                "hex": "0x07468a06ae348ab44584f5"
             }
         },
         "0x1bd7bafa1bc4002b24308c90cf86d855ccb66b0b": {
@@ -8391,13 +8391,13 @@
         "0x8e89688ef63ff22c37b79993bc515939e9a86389": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x3bddb392e5a6a0"
+                "hex": "0x11f5b5df44e530"
             },
-            "lastActionTimestamp": 1622419835,
+            "lastActionTimestamp": 1627209394,
             "firstObservedTimestamp": 1622419835,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x11172e41401de9a1ec60"
             }
         },
         "0x45b1827e9aa31f9de17bdad0fe0eecefff086207": {
@@ -8477,11 +8477,11 @@
                 "type": "BigNumber",
                 "hex": "0x00"
             },
-            "lastActionTimestamp": 1625065681,
+            "lastActionTimestamp": 1626728690,
             "firstObservedTimestamp": 1623611921,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x2e9e346a95f1ebbf0c80c0"
+                "hex": "0x360a0cbc937764398be81a"
             }
         },
         "0x78b58e4197c04d320a33c582ecc3e7e885f26a58": {
@@ -8511,25 +8511,25 @@
         "0x813803ec845768aa414714c4340116df69df84ef": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x041134c177bf7871"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1625908714,
+            "lastActionTimestamp": 1626955171,
             "firstObservedTimestamp": 1623691821,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x4a256bcd7242ab077d9b"
+                "hex": "0x8b389312de3e80686860"
             }
         },
         "0xb352eab4ae5864281b95cf1de234b9b8ca2c5b1c": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x8822ca9a72254cd2"
+                "hex": "0x6cf158c812b19b06"
             },
-            "lastActionTimestamp": 1624055798,
+            "lastActionTimestamp": 1626956649,
             "firstObservedTimestamp": 1623708190,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x019ede1361d5fa917b1156"
+                "hex": "0x1926be8d38e95e502d9bbb"
             }
         },
         "0x3324614199ca2a60487d228a96b9c58aa54a83af": {
@@ -8703,13 +8703,13 @@
         "0x09732c94654f77e3650424942a1e7e05181f1420": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x053656f624d44c836e"
             },
-            "lastActionTimestamp": 1625594778,
+            "lastActionTimestamp": 1626913139,
             "firstObservedTimestamp": 1624053061,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x66b9d1894d3fdb8e6a8230"
+                "hex": "0x701c66a43def883e1b499a"
             }
         },
         "0x057518153ed7f25dd237a0d0052ae8cc5c428ee3": {
@@ -8751,25 +8751,25 @@
         "0x9f3bc1104ff63428026aafa5ace281f15fd0bc21": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x3428ff570cacf1"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1624101100,
+            "lastActionTimestamp": 1626863944,
             "firstObservedTimestamp": 1624101100,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x0896f30ae971a31dce9c"
             }
         },
         "0xf8650d130c7e849954c7afef1ff6421cdb9262d7": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x28c71ab8db3b20da"
+                "hex": "0x2a15ce60f1ba8a9d"
             },
-            "lastActionTimestamp": 1624311273,
+            "lastActionTimestamp": 1626354574,
             "firstObservedTimestamp": 1624311273,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x04f761846943d7ac487e82"
             }
         },
         "0x42eb67c5cf1f57017b100cb268f1068c31b62a10": {
@@ -8859,13 +8859,13 @@
         "0xde6b2a06407575b98724818445178c1f5fd53361": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x1f9d068036e02da2"
+                "hex": "0x236f0c0e6bd0b35d"
             },
-            "lastActionTimestamp": 1625388992,
+            "lastActionTimestamp": 1626600585,
             "firstObservedTimestamp": 1624845222,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0xdc0ee5adadae5c0e16e0"
+                "hex": "0x0324823c21beb13d906312"
             }
         },
         "0xf50355c156f2b608ee3c915e2a96903d190128ae": {
@@ -8895,13 +8895,13 @@
         "0x7b24cf01b6d5e87723223e2a2f5ebed92b5cc7a9": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x1649171672d8fba9"
+                "hex": "0x2191d8a2bbc0fb80"
             },
-            "lastActionTimestamp": 1625093159,
+            "lastActionTimestamp": 1626214133,
             "firstObservedTimestamp": 1625016493,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x0fe71b42eecf93ebf7de"
+                "hex": "0x018d16fee96af2be4ea3dc"
             }
         },
         "0xb7562f12e41c762cecda99d62bd6eac7b0c3b4c1": {
@@ -8967,13 +8967,13 @@
         "0x391891af67e29d97e61e30c3036a0874f5da411e": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x013ca9f3be1d21b323"
+                "hex": "0x023e48817f6f2b377c"
             },
-            "lastActionTimestamp": 1625500359,
+            "lastActionTimestamp": 1627124182,
             "firstObservedTimestamp": 1625403833,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x011fbb42c8d7f3d0dcf706"
+                "hex": "0x256a508c4de2702d8b6e63"
             }
         },
         "0xc64ef1c4c8f417657c6e20b367a6bb4ac4fcb6d3": {
@@ -9003,13 +9003,13 @@
         "0xe36d639a953f563e129ef289a04818bb04a2bcbe": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x9a00ea45dfafc141"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1625879685,
+            "lastActionTimestamp": 1627058241,
             "firstObservedTimestamp": 1625879685,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x0a316062026a66078580dc"
             }
         },
         "0x9c9f5d23960dc865bde7762b4ceaf3d4508aff63": {
@@ -9035,6 +9035,78 @@
                 "type": "BigNumber",
                 "hex": "0x00"
             }
+        },
+        "0x40e652fe0ec7329dc80282a6db8f03253046efde": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x32009b833a46c5eb"
+            },
+            "lastActionTimestamp": 1626547721,
+            "firstObservedTimestamp": 1626398744,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x69ad020bddd02f317605"
+            }
+        },
+        "0x0ddcb606e82e031e9eac01afb7fb2d54e64c2855": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1627153019,
+            "firstObservedTimestamp": 1626446224,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x0875d1abd9ee7c9642d723"
+            }
+        },
+        "0xc3fd1227da579220afeb28b400dacc4ad6523c7c": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1627053280,
+            "firstObservedTimestamp": 1626526085,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x0182f6a27c7c905ab23477"
+            }
+        },
+        "0xdc4d0d92ae598ae497a7fa824bff7f9492df691b": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x0d8ce48b97dc7f25"
+            },
+            "lastActionTimestamp": 1626630179,
+            "firstObservedTimestamp": 1626630179,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xd79e338667aeb42fb8f71c03b815d06bb8da968d": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x0bd8e77213ff6ba0"
+            },
+            "lastActionTimestamp": 1626816083,
+            "firstObservedTimestamp": 1626816083,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x3bcf3db69897125aa61496fc8a8b55a5e3f245d5": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0xd231529129c177b4"
+            },
+            "lastActionTimestamp": 1627333746,
+            "firstObservedTimestamp": 1627332452,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x06daf8de9025ca2542"
+            }
         }
     },
     "USD": {
@@ -9053,25 +9125,25 @@
         "0x5398850a9399da87624874704feaa8a9c6c4089b": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x3f85249ba5f68ef3939e"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1616196711,
+            "lastActionTimestamp": 1626612464,
             "firstObservedTimestamp": 1616196711,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x276f5c5e59b9c3442e0f1ae38e"
             }
         },
         "0x99eb33756a2eaa32f5964a747722c4b59e6af351": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x01e6352e9a23e1f29425"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1616201381,
+            "lastActionTimestamp": 1626460828,
             "firstObservedTimestamp": 1616201381,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x01288fa9975a475f927e8987e4"
             }
         },
         "0x560fefc8f45b8d43f86f79f718dd0364d42037bd": {
@@ -9137,13 +9209,13 @@
         "0x2ae1d88af6d27cdf7c5c3799c8bf88191e2686d6": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x03fa826c580fd4829c99"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1616206755,
+            "lastActionTimestamp": 1626593518,
             "firstObservedTimestamp": 1616206755,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x02768efaf17682b003af2895d3"
             }
         },
         "0x3bbec29ab82db1f0be3f67261cc902c4e35ab70d": {
@@ -9221,25 +9293,25 @@
         "0x429badfadf144f655926081bc3b8679ab15ff33f": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x362ed293cc5990a715"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1616218306,
+            "lastActionTimestamp": 1626528441,
             "firstObservedTimestamp": 1616218306,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x214c103c72433037a74fda43"
             }
         },
         "0xba55bdbf959df826da6c35487eb15fad2164662d": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x021bd5afcab8530ff8a568"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1625831094,
+            "lastActionTimestamp": 1626597456,
             "firstObservedTimestamp": 1616221321,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0xc2dc92fa35c89bf2d50de8ee08"
+                "hex": "0xdb854505029d91f286af515698"
             }
         },
         "0x00f928a6adc7c345ef919fe5a8be2458580ef9f6": {
@@ -9425,25 +9497,25 @@
         "0x618d64611af0a80f77472051077f488f12004daa": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x163b89a12b6e55e33c23"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1616263407,
+            "lastActionTimestamp": 1626471526,
             "firstObservedTimestamp": 1616263407,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x0d8706041809ce3c4b6ca09d45"
             }
         },
         "0x0a1681fa2da2f297b6a836772a16d2a9e85b3a99": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x540e1fb78582ee063d6c"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1616270429,
+            "lastActionTimestamp": 1626434078,
             "firstObservedTimestamp": 1616270429,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x32ebb1bb5dcd95830326222a6c"
             }
         },
         "0xabe151e6753b3fc96954cea3e677babc415cee8a": {
@@ -9629,13 +9701,13 @@
         "0x4e6b41472d13ad84f6990dfec1af282cb04705f8": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0xb57833b7b647de28d5b4"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1624756209,
+            "lastActionTimestamp": 1626472632,
             "firstObservedTimestamp": 1616358688,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x69a4c20c5d441b767c28d4264d"
+                "hex": "0x7c358ae7286d64322736ec0539"
             }
         },
         "0x8dc490643c58795e5c4dfb9b24682aa6d9dec6c0": {
@@ -10205,13 +10277,13 @@
         "0x1e5139c78050d014f05968dc5c0755dae958481b": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0xa21717dd3ce5b20493"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1621828578,
+            "lastActionTimestamp": 1626565006,
             "firstObservedTimestamp": 1616806015,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x780a434685d155d3e9981f4d"
+                "hex": "0xa5ccdf1db19bfeb881c6d111"
             }
         },
         "0x7e4b6e2b6732f2889b1f1ee7a8e7e42eacf6a6e2": {
@@ -10241,13 +10313,13 @@
         "0x044a9c43e95aa9fd28eea25131a62b602d304f1f": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x08155d1e8289dab05064"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1616870875,
+            "lastActionTimestamp": 1626572649,
             "firstObservedTimestamp": 1616870875,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x04aca711c33135af15fa701b78"
             }
         },
         "0xebe1bbb18335bec74427c74dac4cfbe685c7dcff": {
@@ -10265,13 +10337,13 @@
         "0x3676ebab4ed31f871c16ecb6807f0ae1e24c1f13": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0xbd6fa371230ae76d24"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1616999212,
+            "lastActionTimestamp": 1626575992,
             "firstObservedTimestamp": 1616999212,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x6c224ed7bc1752cb504e0ab0"
             }
         },
         "0x6343249af8ecfd6b3fd903b338504166a22005f9": {
@@ -10289,109 +10361,109 @@
         "0x831a0e16275a409098ca4c80e0f752945bd666a6": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x40ca0a41df2a351e7c"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1617001121,
+            "lastActionTimestamp": 1626576168,
             "firstObservedTimestamp": 1617001121,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x24f9f089275f794409d3ab64"
             }
         },
         "0xe3bfe9d1c212f4fef1e8aca0b51eb815b4902f44": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x39972187b7c630b6a4"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1617001380,
+            "lastActionTimestamp": 1626576365,
             "firstObservedTimestamp": 1617001380,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x20de1ae4e72765509ff8bcc4"
             }
         },
         "0x5e1674ee7d0b5c480b71e009859c2eff94302960": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x32643a3a6af065d45e"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1617002052,
+            "lastActionTimestamp": 1626576419,
             "firstObservedTimestamp": 1617002052,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x1cc1dc1bdaf598d3ac646fe2"
             }
         },
         "0x04a7e2d908f9032f96e0e177115415273ae1a41e": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x32647f4933902ed845"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1617002496,
+            "lastActionTimestamp": 1626581042,
             "firstObservedTimestamp": 1617002496,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x1cc53a2343b49550d24b057a"
             }
         },
         "0x0ce3eb523975e967d60b844af0e83d343735159e": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x23fe6a06b5378f152b"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1617004191,
+            "lastActionTimestamp": 1626581606,
             "firstObservedTimestamp": 1617004191,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x148c203b16afad10d2a4556d"
             }
         },
         "0x91d694dd7bc0907b4f70e3ae882630e20fca8769": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x23fe6e5e07cb99d25d"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1617004575,
+            "lastActionTimestamp": 1626581819,
             "firstObservedTimestamp": 1617004575,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x148c0aaa8b5f776a459fb92c"
             }
         },
         "0xb271d8926850709a35f89b1722eeeb2c35ee2c8e": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x23fe6ce27504625464"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1617005542,
+            "lastActionTimestamp": 1626582149,
             "firstObservedTimestamp": 1617005542,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x148bb041c8abc74e24a6ea1c"
             }
         },
         "0x0036e3a70df619da8e1e569fe50c8b0b8a8e94f9": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x23fe6b67e49cc91a0c"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1617006058,
+            "lastActionTimestamp": 1626582230,
             "firstObservedTimestamp": 1617006058,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x148b72406191fbd0f5496b10"
             }
         },
         "0x28d804bf2212e220bc2b7b6252993db8286df07f": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x01baed509e0f129eef06fd"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1621807550,
+            "lastActionTimestamp": 1626713767,
             "firstObservedTimestamp": 1617027933,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x9e87e57cb7d94e252bb5d83acc"
+                "hex": "0x011bd3989ed37204594a4a279ac5"
             }
         },
         "0x32a59b87352e980dd6ab1baf462696d28e63525d": {
@@ -10433,13 +10505,13 @@
         "0x8cf316b4feed10ef10b03f70687050b8bac3abe4": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x03aefb17e43ef1aafa99"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1619750203,
+            "lastActionTimestamp": 1626787375,
             "firstObservedTimestamp": 1617077175,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x60e11d7aee3fcbc93f0841f0"
+                "hex": "0x01ec6931679cebf4de71eb7bc4"
             }
         },
         "0xebed2200b9ad455fec52650d00ab86fc2858fde4": {
@@ -10529,13 +10601,13 @@
         "0xa583f99495077952103235ad50606246d69e829f": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x19736771b49109508594"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1617571778,
+            "lastActionTimestamp": 1626683097,
             "firstObservedTimestamp": 1617571778,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x0dd25d9bef71e73f01913f0c4c"
             }
         },
         "0x14fc5a6b0706d6804a377e57357cfe50d8c37b01": {
@@ -10565,13 +10637,13 @@
         "0xa4fdc2103b412cc142bd7715dabab06f08ef842b": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x34c778d0a6876b166a30"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1623792984,
+            "lastActionTimestamp": 1626501235,
             "firstObservedTimestamp": 1617736600,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x120a7e1a104c9d1032a66ec60c"
+                "hex": "0x1a8f92b0b05c4caeca37e9891c"
             }
         },
         "0x70b7da07a9a3ad75a203a18de9def3c58c3702f2": {
@@ -10637,13 +10709,13 @@
         "0x38d0dbecda3b81faa65cdce0cae4c4db30dec786": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x7c7a16c820070d1ed899"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1618798928,
+            "lastActionTimestamp": 1626724384,
             "firstObservedTimestamp": 1617927662,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0xf1d9d1373a6e3818528f49c6"
+                "hex": "0x3bbf332366ce1cf27b30b58416"
             }
         },
         "0x935d2fd458fdf41b6f7b62471f593797866a3ce6": {
@@ -10709,25 +10781,25 @@
         "0x814a19b98a84ec9f72b7609a24cc6cd35a2d0b9e": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x043a10195e925da801bd"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1618256725,
+            "lastActionTimestamp": 1626353116,
             "firstObservedTimestamp": 1618256725,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x020a2f437c9aaec564ca57ccab"
             }
         },
         "0xbaaeb7aae88c94d682dd779318c4fe0fc450eb3f": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x364505aaefe4c99293"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1618298141,
+            "lastActionTimestamp": 1626828837,
             "firstObservedTimestamp": 1618298141,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x1b982c2ae9b5d14970914598"
             }
         },
         "0x1f6aa2100b6acb7cfd5524c1b642f0a878f9b605": {
@@ -10757,25 +10829,25 @@
         "0x0f71a7bdf56fd34bb64efaab5efb5196a5a32b0d": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x261085973d2d606c725f"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1618601659,
+            "lastActionTimestamp": 1626243235,
             "firstObservedTimestamp": 1618601659,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x11565ee7582d2f40e405ae6d18"
             }
         },
         "0x14d6da956a687b9e95b2cf450b58d0ce895073fe": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x11c7ade53d5b4fd7f455"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1618659363,
+            "lastActionTimestamp": 1627040030,
             "firstObservedTimestamp": 1618659363,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x08e1af6ba985bfaa8674b1ef57"
             }
         },
         "0x750c31d2290c456fcca1c659b6add80e7a88f881": {
@@ -10793,13 +10865,13 @@
         "0x42d02f4cd48bdac116b7e3a4895f586777948fae": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x2026dd06b9d3fbd88d03"
+                "hex": "0x0aee7e5953a95abf6325"
             },
-            "lastActionTimestamp": 1619027751,
+            "lastActionTimestamp": 1626342107,
             "firstObservedTimestamp": 1619027751,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x0e0467f9110e28356e55f0f71c"
             }
         },
         "0xf45b34c93ada2a18bf03fa6dd3904ab9f6df273d": {
@@ -10913,13 +10985,13 @@
         "0x5eea118e75f247014c6d0e990f02a0c254edc852": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x14aa7c923063845124eb"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1625439164,
+            "lastActionTimestamp": 1626733357,
             "firstObservedTimestamp": 1619364703,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x12de04dd50e9edc4f6d12629c5"
+                "hex": "0x1476206e5c8ff232a280f3ca80"
             }
         },
         "0x0ca9ef7f67e6ca559075164534f0a331640d7821": {
@@ -11153,49 +11225,49 @@
         "0xe3071c3f75c3a17e25c6a88a31453e97da25edc3": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x103c9ce938cbc17d02"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1619586833,
+            "lastActionTimestamp": 1626668066,
             "firstObservedTimestamp": 1619586833,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x06da665a623954bf180a6722"
             }
         },
         "0x64ab826443f4454310a4b99e874f72b6e2cc1f6f": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x103c9ce8ebce984db1"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1619589625,
+            "lastActionTimestamp": 1626673224,
             "firstObservedTimestamp": 1619589625,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x06dafc6a73eb4cc69e592f9f"
             }
         },
         "0x884f00ebcb6bda15038a686a1a308d53885f79a2": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x103c9ce9871fab0654"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1619589800,
+            "lastActionTimestamp": 1626672121,
             "firstObservedTimestamp": 1619589800,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x06daab5c1e2939020bf89494"
             }
         },
         "0x5fdd83cb37a69e6556734f9e2e3ca2a88ee00cb4": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x1039d757bef0bdc48c"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1619591130,
+            "lastActionTimestamp": 1626672815,
             "firstObservedTimestamp": 1619591130,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x06d95782eb86031799b4307c"
             }
         },
         "0xef47003f0e276eb0fb60b626e80554dd7adcdd11": {
@@ -11273,13 +11345,13 @@
         "0xeb340415d19e506de42fb7e2e1ca09965ddbd6ee": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x3f64c1db9e2b96b42fbf"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1624751973,
+            "lastActionTimestamp": 1626721580,
             "firstObservedTimestamp": 1619750721,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x16240de0dab79fa79bcdc1f1b8"
+                "hex": "0x1d9545fdc2197b7b42b2a1c231"
             }
         },
         "0x193f0ee42a199a0cecd479a9f09ba293eb1ca357": {
@@ -11297,13 +11369,13 @@
         "0xb4522eb2ca49963de9c3dc69023cbe6d53489c98": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x010e75ea93af9eb8b1b3"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1619769094,
+            "lastActionTimestamp": 1626495952,
             "firstObservedTimestamp": 1619769094,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x6c71146a29ae47d85ce4e33e"
             }
         },
         "0x3dd48ad861f0b77d1312f9c95a13e52871ca95e0": {
@@ -11381,13 +11453,13 @@
         "0x3724583ad51c8f7c4ab168ddcd185681db07baa5": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x0a99dc9c9013ecf723ff"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1624943242,
+            "lastActionTimestamp": 1626799481,
             "firstObservedTimestamp": 1619905550,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x02d5daa6807f335ef81c54d73a"
+                "hex": "0x04021df5ef5db22e81707b204b"
             }
         },
         "0x7088c5611dae159a640d940cde0a3221a4af8896": {
@@ -11453,13 +11525,13 @@
         "0xdc136f114319f67ad995c9fec6c09f39ba3814ce": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x03212b5f3867f45832b3"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1620248541,
+            "lastActionTimestamp": 1626863278,
             "firstObservedTimestamp": 1620248541,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x013be05598f7c9247c490fce23"
             }
         },
         "0xb76cb23b716384ea0b848273f01f33a0ecaf2272": {
@@ -11467,23 +11539,23 @@
                 "type": "BigNumber",
                 "hex": "0x00"
             },
-            "lastActionTimestamp": 1625964051,
+            "lastActionTimestamp": 1626510514,
             "firstObservedTimestamp": 1620597309,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x01b2bc0abda85a8f622c41f236"
+                "hex": "0x01be6d61fe56bcf89204e3b630"
             }
         },
         "0x7bfee91193d9df2ac0bfe90191d40f23c773c060": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x087466a26448a98bebd6"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1620688579,
+            "lastActionTimestamp": 1626556124,
             "firstObservedTimestamp": 1620688579,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x02f4f65859286556cfe159b7e6"
             }
         },
         "0xca7a055c438cb30f748fb571418b4653ed50ed5f": {
@@ -11525,13 +11597,13 @@
         "0x7ed9dc4698e7517031290712a0c542996ddd6e40": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x1587b4e06e46709595"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1621162132,
+            "lastActionTimestamp": 1626325307,
             "firstObservedTimestamp": 1621162132,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x06a0392d37ee05457bb3fc33"
             }
         },
         "0xaf9657e57e6b876dee2fb3f51cc05b5f1b852376": {
@@ -11693,25 +11765,25 @@
         "0xf43329e22126e927f108c228b207f84d89faa6ff": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x6810515df0b8181b48a5"
+                "hex": "0x67893129507555e800fb"
             },
-            "lastActionTimestamp": 1625524925,
+            "lastActionTimestamp": 1626285735,
             "firstObservedTimestamp": 1622063068,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x01be8235db7185027448b37dd8"
+                "hex": "0x067696b5130a0b8a7ef5b6cbaa"
             }
         },
         "0x6957d2139d29e7db7913ac21e813f2a561e47ac8": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x05c583a566788a9bd62b"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1625208307,
+            "lastActionTimestamp": 1626511700,
             "firstObservedTimestamp": 1622236806,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x8e81109e8841079d88ff1835"
+                "hex": "0x01014a2977aebc07c322245f80"
             }
         },
         "0x2993e1d02b11377f44455aedc618c705acbb0591": {
@@ -11765,13 +11837,13 @@
         "0x9c8f81b6dac8b0e2ffab1a544e0944f0c7c6d664": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x6c19984df3acf4f1e6"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1622414321,
+            "lastActionTimestamp": 1626953575,
             "firstObservedTimestamp": 1622414321,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x1d3f6293ab48529b0734b204"
             }
         },
         "0x7cc78773cf63b47cbbc5aad573ace669d3ab4feb": {
@@ -11861,13 +11933,13 @@
         "0x6f745b76ee8eefd2f6363ef752e12e89788a786b": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x128d1112c4756dd8dc94"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1622667035,
+            "lastActionTimestamp": 1626559263,
             "firstObservedTimestamp": 1622667035,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x044dc25432e01941b943a94250"
             }
         },
         "0x5db5286cec9a28d76feb4ee22e0722e6a6912b22": {
@@ -12029,25 +12101,25 @@
         "0x929cf8d3d25784813d8e04a34cdf181e1800010c": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x05679ba3e9b334a0da"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1623569278,
+            "lastActionTimestamp": 1626657503,
             "firstObservedTimestamp": 1623569278,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0xfeaf2b32ba4ee9ce71589a"
             }
         },
         "0xa11aed329616cc59e002a825f8a85f9baf4cdbfc": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x0f7e0b1bd0f12936da75"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1623587628,
+            "lastActionTimestamp": 1626522821,
             "firstObservedTimestamp": 1623587628,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x02b5dd21d564204eeb3f6a6ced"
             }
         },
         "0xe81119bcf92fa4e9234690df8ad2f35896988a71": {
@@ -12149,13 +12221,13 @@
         "0xed79f0334226eda8fc5b199fbfff1ee809f1312e": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x06f8711683391420421f"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1624970869,
+            "lastActionTimestamp": 1626536565,
             "firstObservedTimestamp": 1623839662,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x6d65b35966448eb47c116fc2"
+                "hex": "0x0113ed21173d44338727be0bc2"
             }
         },
         "0x54dea0d442c3254419382f0b5fc5d245eb241569": {
@@ -12221,13 +12293,13 @@
         "0xebbb6dad99e31e246bc0b148aeed97cdc217242d": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x06ad49592447da3b9a"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1624067738,
+            "lastActionTimestamp": 1627150382,
             "firstObservedTimestamp": 1624067738,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x013a106b203300912788df08"
             }
         },
         "0x4f4a140e9b4a8403792970c6b5535ed0aa32c8a4": {
@@ -12293,13 +12365,13 @@
         "0x12027072154a0f4186a22d007874356287050272": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x48c34e8c15f332b9b2"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1624135505,
+            "lastActionTimestamp": 1626943255,
             "firstObservedTimestamp": 1624135505,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x0c2d5f310200ae8c2a641dac"
             }
         },
         "0xc297434911d5a22eef2925a63e78d211a77c31c4": {
@@ -12437,25 +12509,25 @@
         "0x2ce5983460add44281d2d1a936f4e84c73b47324": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x0aaf263d0fc51ecdc361"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1624896764,
+            "lastActionTimestamp": 1626550920,
             "firstObservedTimestamp": 1624896764,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x010dac4fdc00669a3bf48df60c"
             }
         },
         "0x9ff5c011d265b48189597cd03bfafa8fa2e1510d": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x0179c58653fa8573a270"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1624969683,
+            "lastActionTimestamp": 1626537766,
             "firstObservedTimestamp": 1624969683,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x234ef569f1ce2528e9ef5a50"
             }
         },
         "0xb4dc972e4d600e9f5eee60f12917800a7881f8d0": {
@@ -12509,13 +12581,13 @@
         "0x130a000f2c3c5f4eb9709ff055e3dd9e6c0cc129": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x1b715cb8ba34d39485b3"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1625264851,
+            "lastActionTimestamp": 1626527557,
             "firstObservedTimestamp": 1625264851,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x0210c036d22da4a7bf97f015b6"
             }
         },
         "0x5d3260514f59bb459f639c8dabd93649bfa8d995": {
@@ -12557,25 +12629,25 @@
         "0x4486b4fff054e0e233c6fee829b76d03c26aa084": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x1b561a3fd7c394450524"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1625653741,
+            "lastActionTimestamp": 1627044748,
             "firstObservedTimestamp": 1625653741,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x0244374d8f37bcb825e0f7355c"
             }
         },
         "0x4e6f10d1498d84fc0b3342974fe314dbdd3790ea": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x30a3fa7ccf9488567f"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1625839179,
+            "lastActionTimestamp": 1626529302,
             "firstObservedTimestamp": 1625839179,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x020034d3ff8e3d420eaf8fb5"
             }
         },
         "0xb3cc5f223b795d17e0dd6f3daff06c13f47354e4": {
@@ -12677,13 +12749,13 @@
         "0xb1ec171401c914b437d331994b328ac01d904671": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x010e408fabd103932c82"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1625921268,
+            "lastActionTimestamp": 1626867150,
             "firstObservedTimestamp": 1625921268,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x0f3c8dbc1b9a5192b78fc2b4"
             }
         },
         "0x4c91cf4c27d95fcb2d134b6151508b8e570fa4f2": {
@@ -12729,6 +12801,126 @@
             },
             "lastActionTimestamp": 1626025031,
             "firstObservedTimestamp": 1626025031,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x8ee5ee714adb4513ac682cbfc3122b85fd288be9": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x0600e763dabb99b076"
+            },
+            "lastActionTimestamp": 1626310949,
+            "firstObservedTimestamp": 1626310949,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x19270be884763562361677a305a1250dbc8b75f8": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x05add3ecff2efee6d1"
+            },
+            "lastActionTimestamp": 1626311203,
+            "firstObservedTimestamp": 1626311203,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x4c7081307a91177655ea1802d99595cb49ef5a99": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x05d75d98e542948c84"
+            },
+            "lastActionTimestamp": 1626311458,
+            "firstObservedTimestamp": 1626311458,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x9cdef6e33687f438808766fc133b2e9d1a16ad57": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626953575,
+            "firstObservedTimestamp": 1626460828,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x786c950c63d9cd4fe021a1320cd2a07f1a6a04a4": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626490755,
+            "firstObservedTimestamp": 1626466736,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x01ff31f4706fefbe701c2d"
+            }
+        },
+        "0x93eb7e6e64bdcf8af8231bc8a284135a23f56d09": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x05755ea2dff7fc4ba7"
+            },
+            "lastActionTimestamp": 1626709220,
+            "firstObservedTimestamp": 1626709220,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x910e985623e79f9d3901b75b99b38d5480e2d1a6": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x05acb5fb5267b164da"
+            },
+            "lastActionTimestamp": 1626709589,
+            "firstObservedTimestamp": 1626709589,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x789b7315eb095e6d00f616ed427a7e7eda03f3d3": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x06371067cc5874b838"
+            },
+            "lastActionTimestamp": 1626710550,
+            "firstObservedTimestamp": 1626710550,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x0f28619684e57f5ffd21c6e9af55694b6235046e": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x05ffb8f425f2e8818d"
+            },
+            "lastActionTimestamp": 1626789529,
+            "firstObservedTimestamp": 1626789529,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x42f1614d2b19041cdd9872fe9ba803d260e64a94": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x081b4cd8d2e1f2ac68"
+            },
+            "lastActionTimestamp": 1626789828,
+            "firstObservedTimestamp": 1626789828,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
                 "hex": "0x00"
@@ -14517,13 +14709,13 @@
         "0x9eef87f4c08d8934cb2a3309df4dec5635338115": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x04c57150ad80bed0fc"
+                "hex": "0x019c43e6f154ee6cc7"
             },
-            "lastActionTimestamp": 1626049644,
+            "lastActionTimestamp": 1627268007,
             "firstObservedTimestamp": 1623717089,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x632df69a84a7cb9e2083fa"
+                "hex": "0x926eeef566ce2145a7520e"
             }
         },
         "0x99eb33756a2eaa32f5964a747722c4b59e6af351": {
@@ -14577,13 +14769,13 @@
         "0x2177da04f9479496c2292d6344d306aa49beb34a": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x45bc29472040fac7"
+                "hex": "0x30f0da3889d15c25"
             },
-            "lastActionTimestamp": 1625844188,
+            "lastActionTimestamp": 1627266451,
             "firstObservedTimestamp": 1623724723,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x10e4afa17df97f213407a7"
+                "hex": "0x13b8abbca334fec20370e8"
             }
         },
         "0x8aa2d2da412adc71b67c19b56aacd4f3cc9ae269": {
@@ -14649,13 +14841,13 @@
         "0x59bbf8a27e2fa8bce0478c73ae653dab1ae7b46d": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0xf8ff09123a4aa7f7"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1626161818,
+            "lastActionTimestamp": 1627036606,
             "firstObservedTimestamp": 1623725500,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x21a9231b1e7c7af696542b"
+                "hex": "0x2e55897b7f8433efd53654"
             }
         },
         "0xe1780b206cd1dfa983bc82405b15ca58caf1b9c9": {
@@ -14697,13 +14889,13 @@
         "0xbecff511eb1f5889f07f79af7954c2271d5b4b78": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x014dbd98c31d32d8"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1623726429,
+            "lastActionTimestamp": 1626824904,
             "firstObservedTimestamp": 1623726429,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x3da2ea1f6f52fbf62848"
             }
         },
         "0x6488a81662e5b5c316b51833fa3eecb62ab20ec1": {
@@ -14805,13 +14997,13 @@
         "0x40e652fe0ec7329dc80282a6db8f03253046efde": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x02297f0959031a2546"
+                "hex": "0x02dd2fc5a04f6338ad"
             },
-            "lastActionTimestamp": 1625369576,
+            "lastActionTimestamp": 1626496736,
             "firstObservedTimestamp": 1623728441,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x148a39efbbc6d9506b3d07"
+                "hex": "0x39b9dc91896c6be6ad04d7"
             }
         },
         "0x4a26706a9c950cf3aa4a34ff03cc4ccd69c38440": {
@@ -15249,13 +15441,13 @@
         "0x376c4c84658968507bc6a3f4f310273a1690d185": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x01291e74f1ecc6bd03"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1623928956,
+            "lastActionTimestamp": 1626800947,
             "firstObservedTimestamp": 1623754337,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0xc0a57b0bccc4555b97fb"
+                "hex": "0x339d5280629f515dfa2b20"
             }
         },
         "0x4e65175f05b4140a0747c29cce997cd4bb7190d4": {
@@ -15597,13 +15789,13 @@
         "0xa0cb49b51a8178f6028dadbfd4402b4c1e080eb9": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x02399464673d9aaf"
+                "hex": "0x0656fea627e5c9a3"
             },
-            "lastActionTimestamp": 1623779801,
+            "lastActionTimestamp": 1626415224,
             "firstObservedTimestamp": 1623779801,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x5978b6c079c3493bfcb1"
             }
         },
         "0x05ccf46673ab0be3da43e847cf2438b6476fa1d0": {
@@ -15681,13 +15873,13 @@
         "0x9687d62c9e387b85f89f4a244fa92eda1582575d": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x05dc79f1187ff721"
+                "hex": "0x08b16be629f9e58d"
             },
-            "lastActionTimestamp": 1626117561,
+            "lastActionTimestamp": 1626827798,
             "firstObservedTimestamp": 1623785387,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x9a78de517bc1b9082038"
+                "hex": "0xd9fe10c447d23f647d35"
             }
         },
         "0xdc02fe7d24ecd56cf1f180b482d4593094c6a157": {
@@ -16017,13 +16209,13 @@
         "0x88aaf4a728e14748cea5e9a3ca1306ac567ba472": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x016499428c30496d74"
+                "hex": "0x016c89e87f54d980be"
             },
-            "lastActionTimestamp": 1626119707,
+            "lastActionTimestamp": 1627178206,
             "firstObservedTimestamp": 1623828268,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x046a4647313c0c48abbbb4"
+                "hex": "0x1ae9d8d092c096ce195310"
             }
         },
         "0x9311d45341b284900711f9bc155ce2e381248c29": {
@@ -16173,13 +16365,13 @@
         "0x256530ce969f76ece1cf66998aef0eab6a940fa8": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x1b13068917839ec292"
+                "hex": "0x237d1de42d809d8fc9"
             },
-            "lastActionTimestamp": 1625836795,
+            "lastActionTimestamp": 1626956156,
             "firstObservedTimestamp": 1623836328,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x0374b5108ea56fd616ba8a"
+                "hex": "0x01d1e345441f4e1c7bfc2e1c"
             }
         },
         "0x4902b20bb3b8e7776cbcdcb6e3397e7f6b4e449e": {
@@ -16209,25 +16401,25 @@
         "0xd143d3d16a9f0c13fd6a25bd3e6a1644b14f41bf": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0xcf9e138ea0411e23"
+                "hex": "0xdd712dd58e143f1a"
             },
-            "lastActionTimestamp": 1623838111,
+            "lastActionTimestamp": 1627260007,
             "firstObservedTimestamp": 1623837159,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x01013cdef9f14a18a8b8"
+                "hex": "0x2a598ac176e466586f9610"
             }
         },
         "0x678aad4cc7fc565097d263b5b97710136f3fe343": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x1bb020c01410f6de"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1623837599,
+            "lastActionTimestamp": 1626777267,
             "firstObservedTimestamp": 1623837599,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x04d9f776ca531682ab3358"
             }
         },
         "0xedad9aaff8932605729c0331eb3b84adcc9435b8": {
@@ -16389,13 +16581,13 @@
         "0x11f57c9e74c333bf81bf2da2ab51661f456f4c4a": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x1bffb99b29b3c187"
+                "hex": "0x1c5d87570e1fac30"
             },
-            "lastActionTimestamp": 1625041603,
+            "lastActionTimestamp": 1627157937,
             "firstObservedTimestamp": 1623838334,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x01e5ef54b831cc3d405a4e"
+                "hex": "0x056e187b82d093292f4bd0"
             }
         },
         "0xc54570b8eb8138ace95132b944b7b6bb391976dc": {
@@ -16509,13 +16701,13 @@
         "0xe89da26416414f0110c1d9ec66304713d3c3223b": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x0376baa2ba5379e5"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1623839270,
+            "lastActionTimestamp": 1626490995,
             "firstObservedTimestamp": 1623839270,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x8c26ee2a41df911337e1"
             }
         },
         "0x64b7fcc8c17540139bdd84d00c7261035602cb66": {
@@ -16941,25 +17133,25 @@
         "0x6c7c462148823c4f12445e1687eb5cb2576c915b": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x469fc4a2851ae4ad"
+                "hex": "0x4a167f453f6e5e92"
             },
-            "lastActionTimestamp": 1624394584,
+            "lastActionTimestamp": 1626490995,
             "firstObservedTimestamp": 1623843157,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x01f0a047184b73b801e712"
+                "hex": "0x0ac3cc6ef4c46506c9fe51"
             }
         },
         "0x6f2cf7dbdae4c9f013569626e135846d3e3f9d27": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x010a09060cffd8d3"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1623843157,
+            "lastActionTimestamp": 1626894507,
             "firstObservedTimestamp": 1623843157,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x3062937fbf443dfab3e2"
             }
         },
         "0xa22a8088e04b1f83341dfe3eced908bd74c8b263": {
@@ -17217,13 +17409,13 @@
         "0x3965e17f45979142bedad0bb266ced15313e2ae3": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x069d22b260823209c4"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1623845612,
+            "lastActionTimestamp": 1626960885,
             "firstObservedTimestamp": 1623845612,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x0139d5acbf72dc3467803be4"
             }
         },
         "0xd371519e9789a5bbd84faf18928c80ab243f48c8": {
@@ -17361,13 +17553,13 @@
         "0x35977cf9b9a753d11e043452418d01f37d93084e": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x01585d304dd1a65a2c"
+                "hex": "0x0196975f4829a483e2"
             },
-            "lastActionTimestamp": 1625694824,
+            "lastActionTimestamp": 1626472892,
             "firstObservedTimestamp": 1623846199,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x2d27dc337e1173648e2970"
+                "hex": "0x3d2047727db6c1f79413e0"
             }
         },
         "0x033638491d0c5b75db2a7ad0fb9d3abc86fd52b6": {
@@ -17421,13 +17613,13 @@
         "0x4740fa6b32c5b41ebbf631fe1af41e6fff6e2388": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x6bef8a200d7a9f8527"
+                "hex": "0xa1e9d662192240cd5b"
             },
-            "lastActionTimestamp": 1626171407,
+            "lastActionTimestamp": 1626236570,
             "firstObservedTimestamp": 1623846704,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x01c3cf56ef128164b18fcbe8"
+                "hex": "0x022f219d0adf48608c49ca15"
             }
         },
         "0x14d6da956a687b9e95b2cf450b58d0ce895073fe": {
@@ -17481,13 +17673,13 @@
         "0x97468f2f722dcd25843bd271603a1d2eb8520bf1": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0xca9cc8dafe51a6b5"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1623847775,
+            "lastActionTimestamp": 1627204381,
             "firstObservedTimestamp": 1623847775,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x28675014eb07e3f6899d56"
             }
         },
         "0xb19be18a7d279432f607676acd34c62ff932daba": {
@@ -17565,25 +17757,25 @@
         "0xfb902be6accb767b78f5906ca8f7a27b113bd44f": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x01d626098eca1bbea3"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1623849989,
+            "lastActionTimestamp": 1626857604,
             "firstObservedTimestamp": 1623849989,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x544852cb7b70b77c33bedd"
             }
         },
         "0xf8650d130c7e849954c7afef1ff6421cdb9262d7": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x6200754f24c00e3f"
+                "hex": "0x015d7e04f0c9c071d7"
             },
-            "lastActionTimestamp": 1625001356,
+            "lastActionTimestamp": 1627245952,
             "firstObservedTimestamp": 1623850026,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x059c7b024c382598f4f052"
+                "hex": "0x15ee8d0e100c0477d68967"
             }
         },
         "0xa853c0cd8c458210801a777ce7104166b6ddaaf0": {
@@ -17613,13 +17805,13 @@
         "0xa2c62a66f6660166838b95db60f234dfb59e765e": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x9846a8f1f2b1475d"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1623851114,
+            "lastActionTimestamp": 1626746051,
             "firstObservedTimestamp": 1623851114,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x1a46861f30084c1be1cb55"
             }
         },
         "0x306a5e6e82bb3f38eca22dc39a3eacdb07c259bb": {
@@ -17721,21 +17913,21 @@
         "0xa0eeed7ad4e74912069fe16a3c3d94d2d9425c25": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x1792c1ff6e521727"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1623855940,
+            "lastActionTimestamp": 1626945272,
             "firstObservedTimestamp": 1623855940,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x04573b419b94c10b0b9c6c"
             }
         },
         "0xe56bd7b4f5314a40dbc2bbb2686c12fb4bf7a353": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0xf8cd0d036d340000"
             },
-            "lastActionTimestamp": 1623860733,
+            "lastActionTimestamp": 1626551278,
             "firstObservedTimestamp": 1623855946,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
@@ -17745,13 +17937,13 @@
         "0x30234201dc4a2b8c62a1285ace96c61ef4c8de4e": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0xf8cf8a70b276bbec"
+                "hex": "0x027d6d4542bbec"
             },
-            "lastActionTimestamp": 1623860733,
+            "lastActionTimestamp": 1626551278,
             "firstObservedTimestamp": 1623856102,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x07d03fb86729079dbb24"
+                "hex": "0x27ee9a312e095529bba050"
             }
         },
         "0x9bf9f6a3da09fc30b1f2618ff4cccda7a5442ac9": {
@@ -17805,9 +17997,9 @@
         "0xe81119bcf92fa4e9234690df8ad2f35896988a71": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x3e2e24dd63a53e7c"
             },
-            "lastActionTimestamp": 1623859479,
+            "lastActionTimestamp": 1626293213,
             "firstObservedTimestamp": 1623858234,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
@@ -17853,9 +18045,9 @@
         "0x3881871c3621e9a8bb9f5c046a2c944c24229874": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x02be45a2efff008027"
             },
-            "lastActionTimestamp": 1624311539,
+            "lastActionTimestamp": 1626463139,
             "firstObservedTimestamp": 1623861684,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
@@ -17889,13 +18081,13 @@
         "0x1fb540757cfd698b4a8f81e510ed09aa67a4f970": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x0566d13a4c5383d208"
+                "hex": "0x0acc9ea6de0ef98a17"
             },
-            "lastActionTimestamp": 1623862758,
+            "lastActionTimestamp": 1627226529,
             "firstObservedTimestamp": 1623862758,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x01153ff68df0f81795fb03d8"
             }
         },
         "0x8a07fa8afa2c54bc47da559a0ab4bc15b43bc897": {
@@ -18225,13 +18417,13 @@
         "0xcbd7d22dd7f5b7e856478027844149c47999e38a": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x6e880903a80e5b8a"
+                "hex": "0xf8b51a9915e5e178"
             },
-            "lastActionTimestamp": 1623931410,
+            "lastActionTimestamp": 1626571373,
             "firstObservedTimestamp": 1623931410,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x11647ef5767dcf14695a0e"
             }
         },
         "0x820928cd37ddcc11ccf18848382471a26bbb3853": {
@@ -18393,13 +18585,13 @@
         "0x1aae1bc09e1785c8cb00650db0c6015bd73b0c7e": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0xde35c285f64f12b6"
+                "hex": "0x011552382a6983b6a9"
             },
-            "lastActionTimestamp": 1625539525,
+            "lastActionTimestamp": 1627325966,
             "firstObservedTimestamp": 1623975654,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x136f15920b2126477cfc3f"
+                "hex": "0x2b184a4fa71d30e00e3e25"
             }
         },
         "0xc6d0f8e8b2fed71d9e8e947e8fa9c6aebf1f2744": {
@@ -18477,13 +18669,13 @@
         "0x854f1269b659a727a2268ab86ff77cfb30bfb358": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x05642b9159b4ccab29"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1626150977,
+            "lastActionTimestamp": 1626415296,
             "firstObservedTimestamp": 1623992175,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x011d4ca046e216990e705854"
+                "hex": "0x01330b1c9a70d2f2d1f689ab"
             }
         },
         "0xa80a681cb89569dd478c4490d034ac4ea0e3d062": {
@@ -18549,13 +18741,13 @@
         "0x8b9ae9efeafb342128e81c640b713b889429b32b": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x0b374bb118f6d403ee"
             },
-            "lastActionTimestamp": 1626195909,
+            "lastActionTimestamp": 1627097844,
             "firstObservedTimestamp": 1624006847,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x0176794618c3a729d12bf466"
+                "hex": "0x01aa60b74e2286f8c4dbad96"
             }
         },
         "0x91635821189683cbe95d6a513e49bc55d3654797": {
@@ -18597,13 +18789,13 @@
         "0xa37ed0864991e305648858b4294ce8f5497155dc": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x0258a962a1670927a7"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1624041967,
+            "lastActionTimestamp": 1626248560,
             "firstObservedTimestamp": 1624023565,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x783184f076c89cccf4a6"
+                "hex": "0x4f786f0dfb421ec26d7ccd"
             }
         },
         "0xee6b25d2e9ee3765022dea3fa4221fdaf6aa23dc": {
@@ -18621,13 +18813,13 @@
         "0x7b3999575cbe9ce590891d99d4854ba23af4c13d": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x182a2e37678b6d74b7"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1624045193,
+            "lastActionTimestamp": 1626934756,
             "firstObservedTimestamp": 1624045193,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x04297452ab33f62574d8ee0d"
             }
         },
         "0x6313751f9038a319452a1927d41afae163bf4823": {
@@ -18753,13 +18945,13 @@
         "0x0e6315c8ebfe50542c5794d3c3a4ce20a202079e": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x89eca21fe8336484"
+                "hex": "0x5269c7514aa36484"
             },
-            "lastActionTimestamp": 1624081365,
+            "lastActionTimestamp": 1627124611,
             "firstObservedTimestamp": 1624081365,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x1904b07addc09a2b3b8db8"
             }
         },
         "0x71535aae1b6c0c51db317b54d5eee72d1ab843c1": {
@@ -18945,13 +19137,13 @@
         "0x0540003bbd356a49bc2e74a3f8f872dc318dc46b": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x90b5ef93b2670348"
+                "hex": "0x020a23b21e5698294a"
             },
-            "lastActionTimestamp": 1624145236,
+            "lastActionTimestamp": 1627086042,
             "firstObservedTimestamp": 1624145236,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x195d9f684fb96bae276fb0"
             }
         },
         "0x09732c94654f77e3650424942a1e7e05181f1420": {
@@ -19031,11 +19223,11 @@
                 "type": "BigNumber",
                 "hex": "0x00"
             },
-            "lastActionTimestamp": 1624237085,
+            "lastActionTimestamp": 1627305433,
             "firstObservedTimestamp": 1624221619,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x6c65214f1584aef1734a"
+                "hex": "0x013f970d6b1689b8fc6c6e"
             }
         },
         "0x56db784a40b88f8bf83cd112c10027aa90f7be01": {
@@ -19113,25 +19305,25 @@
         "0xc1b172595ddc335a9dd80b50117e457ce124bc36": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0xb3ec1ef907998c06"
+                "hex": "0xb838c67323ec6b64"
             },
-            "lastActionTimestamp": 1625903594,
+            "lastActionTimestamp": 1626603159,
             "firstObservedTimestamp": 1624344108,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x0fc07efdcd623282da3304"
+                "hex": "0x1741146ee7ed9747eddb12"
             }
         },
         "0xc7844bba73a02218c4c233a81a5cb0eeecbe9d5a": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x0fc786baf40402f6"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1624504943,
+            "lastActionTimestamp": 1626847159,
             "firstObservedTimestamp": 1624393384,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x03790d928a7eb99c1381"
+                "hex": "0x02376b37b7d1c6b88e86b1"
             }
         },
         "0xcdcaba4c0af84795fb3922ed14e544038cb44d8a": {
@@ -19197,13 +19389,13 @@
         "0x5f578a06068f13dd1a72917890d36b97988b03b4": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x033a98f45b37753145"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1625652546,
+            "lastActionTimestamp": 1627282634,
             "firstObservedTimestamp": 1624466559,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x1d272f8f558d6649fa71da"
+                "hex": "0x6d7748d6000627749fb982"
             }
         },
         "0xfdb7a079eecedbc94f52d1cef1606bbdbfc8ec55": {
@@ -19257,25 +19449,25 @@
         "0xf3100cc301c398eb498c1f147916249328487e87": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x293c087dc9fcdf29"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1624492534,
+            "lastActionTimestamp": 1626996774,
             "firstObservedTimestamp": 1624492534,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x0627a3a7b81bba56927db0"
             }
         },
         "0xddf9a07836caee5bb79c6cd97ca6fae94b8e6d56": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x013f64ec2738666e35"
+                "hex": "0x022bd6bc226fe0b295"
             },
-            "lastActionTimestamp": 1624507221,
+            "lastActionTimestamp": 1627284439,
             "firstObservedTimestamp": 1624507221,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x34def6c83de1df2209d6ea"
             }
         },
         "0x2e765f16c376ac1c06d676cda48392dfdb0ee600": {
@@ -19485,13 +19677,13 @@
         "0x55a1d026da2438a758b0c0f45f8144f6a18e31a7": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x429cc77388fc25d0"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1624777832,
+            "lastActionTimestamp": 1627299537,
             "firstObservedTimestamp": 1624777832,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x0a031fa4813318f650a250"
             }
         },
         "0x53ff1260845c449e03f21e4da481a010a61bc526": {
@@ -19521,13 +19713,13 @@
         "0x4d49a0d59711abf2d2d870f9dc88905239b0010c": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x0157e55596da0bfa19"
+                "hex": "0x0181577b7487712e44"
             },
-            "lastActionTimestamp": 1624916681,
+            "lastActionTimestamp": 1626847637,
             "firstObservedTimestamp": 1624916681,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x279490724a70129ba7d1ec"
             }
         },
         "0xe93a437c41ddee88c5f80871071fad42ea207120": {
@@ -19593,13 +19785,13 @@
         "0x2eca0be455683dc60406c1e1782a20692a14628c": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x01750ea7987c2e2c03"
+                "hex": "0x0429bc281ab2286f28"
             },
-            "lastActionTimestamp": 1625589292,
+            "lastActionTimestamp": 1626486364,
             "firstObservedTimestamp": 1625025431,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x09b55226f40b444989ca6c"
+                "hex": "0x1da7d0afaa9b938c9b1afc"
             }
         },
         "0xc4610c560efec4a37ba9dfe1268da37112cbbfe2": {
@@ -19737,9 +19929,9 @@
         "0xacfe4511ce883c14c4ea40563f176c3c09b4c47c": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x0dd12357c4598a01"
             },
-            "lastActionTimestamp": 1625267499,
+            "lastActionTimestamp": 1626249521,
             "firstObservedTimestamp": 1625254823,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
@@ -19785,13 +19977,13 @@
         "0xec8abfd5cce0198914d76c733b5a0763a88da24f": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x057b9eabf3980953b0"
+                "hex": "0x0e7c491a8488808209"
             },
-            "lastActionTimestamp": 1625895113,
+            "lastActionTimestamp": 1627105981,
             "firstObservedTimestamp": 1625308736,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x30cdaa4974fcffed3a3872"
+                "hex": "0x01070479ae4e3cd8b016e4ca"
             }
         },
         "0xacc0e80e3cccede7d2948ab542700bb9499d2623": {
@@ -19833,13 +20025,13 @@
         "0x6d7c118c77275c908b7d5907480aba2318c99a91": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x142fabbb97c93a1e28"
+                "hex": "0x19a3d6f6d3368cf0ef"
             },
-            "lastActionTimestamp": 1626063396,
+            "lastActionTimestamp": 1627102814,
             "firstObservedTimestamp": 1625374244,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x798931c761bdf350519400"
+                "hex": "0x01b9b1cc276579ac9dbec910"
             }
         },
         "0xb4522eb2ca49963de9c3dc69023cbe6d53489c98": {
@@ -19857,13 +20049,13 @@
         "0x391891af67e29d97e61e30c3036a0874f5da411e": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x1cb823014a052d1482"
+                "hex": "0x10326611b79bf17700"
             },
-            "lastActionTimestamp": 1625501780,
+            "lastActionTimestamp": 1627124311,
             "firstObservedTimestamp": 1625417460,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x12e926909fb79b100406b9"
+                "hex": "0x02bb1a0ebc58f800f3576103"
             }
         },
         "0xe8a7e45922f049c124ade1d26a71def97d23fb92": {
@@ -19893,13 +20085,13 @@
         "0x1d12d09793daf5eb834c8d29eb6a039c32b73813": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x5836520a3365a7f04f"
+                "hex": "0x5720c3c42a51d7f04f"
             },
-            "lastActionTimestamp": 1625960738,
+            "lastActionTimestamp": 1626235658,
             "firstObservedTimestamp": 1625440666,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x029cf13b2fdf1b6e4a7da3e6"
+                "hex": "0x040efcda46f9c71750ea8a7e"
             }
         },
         "0x7f9cd82f6d2ef610c9587d6f4c5f079a0353ae20": {
@@ -19917,49 +20109,49 @@
         "0x3ffba13e5e713cc435271a1c4a50ffcfa835f9d4": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x081eae4af27e578a0a"
+                "hex": "0x0d854e6e12b4ffb196"
             },
-            "lastActionTimestamp": 1625553005,
+            "lastActionTimestamp": 1626337310,
             "firstObservedTimestamp": 1625553005,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x612cb4993d3752bf2416ea"
             }
         },
         "0xf527c7f2c561ca5c4927bf7760e20f3dd5825493": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x019e4c4c5319b98274"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1625592396,
+            "lastActionTimestamp": 1626875818,
             "firstObservedTimestamp": 1625592396,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x1fb164329b4d4119a76a98"
             }
         },
         "0x0ac545310921e4885dc4cf5f758d7c49e8974482": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x078157e24ee78ac0e7"
+                "hex": "0x0783c843603379d6dd"
             },
-            "lastActionTimestamp": 1626114817,
+            "lastActionTimestamp": 1626847076,
             "firstObservedTimestamp": 1625612537,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x390c224ad06b5889cf32d9"
+                "hex": "0x8ccf90426f4b40fdf94eb9"
             }
         },
         "0xe1eb4cfc47bb10d9f6fceb07128105ff0b3d8eea": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x01015098976a3152cd"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1625671388,
+            "lastActionTimestamp": 1626362938,
             "firstObservedTimestamp": 1625629725,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x2e532d6f2d7c99a4aa17"
+                "hex": "0x0ac99102fcc07ffe5dfa5d"
             }
         },
         "0x07d7685becb1a72a1cf614b4067419334c9f1b4d": {
@@ -19989,25 +20181,25 @@
         "0x9eec58d76d1b5e661f0180464147f2d3a582691b": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x02b255243ba2584e53"
+                "hex": "0x0565784d922f25d88c"
             },
-            "lastActionTimestamp": 1625646537,
+            "lastActionTimestamp": 1626422611,
             "firstObservedTimestamp": 1625646537,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x1feee231e397490af2edbe"
             }
         },
         "0x3a531c90e52a02817c0d31794d0ac4ea35a66602": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x034a398c5362b47ec1"
+                "hex": "0x0693c11d8ebd515787"
             },
-            "lastActionTimestamp": 1625646656,
+            "lastActionTimestamp": 1626332009,
             "firstObservedTimestamp": 1625646656,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x2267b2ab9b7084406081e9"
             }
         },
         "0x2c9f6b8c807a26d73e19c8fa9323089e334a73dd": {
@@ -20193,13 +20385,13 @@
         "0x8ed876fded3699c590be3e12cef56e23376eff3b": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x04295b3a9964952c"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1626165401,
+            "lastActionTimestamp": 1626940475,
             "firstObservedTimestamp": 1625863826,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x0729fec6db641f28923b"
+                "hex": "0x52bd2bbae97fc0e00b97"
             }
         },
         "0x0a4fbd87895f583a8c8d2b8583ac133180477a8f": {
@@ -20325,13 +20517,13 @@
         "0x0cb5f0af4e0d5103e1b2126bcd787ce405d12ebb": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0xb0aeeab5fbb0d6"
+                "hex": "0x01618eec42af3a42"
             },
-            "lastActionTimestamp": 1625996701,
+            "lastActionTimestamp": 1627178509,
             "firstObservedTimestamp": 1625996701,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x0c721f44a811eab00da0"
             }
         },
         "0x227420eef8881663e277687743bf93faee81f1b2": {
@@ -20385,25 +20577,25 @@
         "0x6621295a7fadd3ab78ae6915502bd50fdd5a1491": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x0f19e19a7356417407"
+                "hex": "0x11ccc1d6c28a32beb9"
             },
-            "lastActionTimestamp": 1626095458,
+            "lastActionTimestamp": 1627306672,
             "firstObservedTimestamp": 1626094391,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x2cf59d11b26c9eee6941"
+                "hex": "0x011744dbc1203c9c821d2063"
             }
         },
         "0x1f6aa2100b6acb7cfd5524c1b642f0a878f9b605": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0xac969bbbdc42b5bc"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1626111435,
+            "lastActionTimestamp": 1626985781,
             "firstObservedTimestamp": 1626111435,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x08fe948dd3830719ee23d8"
             }
         },
         "0xa22b175600d70db5388b9de2c47dc8c0b2f06aa7": {
@@ -20421,13 +20613,13 @@
         "0x5fdb500ba1d9b6be0c164ce609277cd968c5d45e": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x2987245b9d621554"
+                "hex": "0x013dfaab0267f4ffe2"
             },
-            "lastActionTimestamp": 1626113830,
+            "lastActionTimestamp": 1627259645,
             "firstObservedTimestamp": 1626113830,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x02d610390d0112b833458c"
             }
         },
         "0xe277bc16f314b6551a8ee335c3ce8359df902553": {
@@ -20457,13 +20649,13 @@
         "0xa426b2e6987feb52e1678e1f784f7580567d30de": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x0451b0eaba78ede4ea"
+                "hex": "0x045fc5637ce8311672"
             },
-            "lastActionTimestamp": 1626114866,
+            "lastActionTimestamp": 1627290674,
             "firstObservedTimestamp": 1626114866,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x4d3d22e0a95235c67ee2a0"
             }
         },
         "0x020eb226e93362d1304bc97a3dd07231b1cdf097": {
@@ -20481,13 +20673,13 @@
         "0xa6e98f9f885c5cbbff761b5e614873427d075e68": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x21afa592be75363b"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1626116041,
+            "lastActionTimestamp": 1626505112,
             "firstObservedTimestamp": 1626116041,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0xc7fc747899c17d8eeeb5"
             }
         },
         "0x359e9bf89e77f0fef31e792e9b398679981ccd6a": {
@@ -20565,13 +20757,13 @@
         "0xe01a97fc4607a388a41626d5e039fdecbfc6acd9": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x2991d52f09a5bacd"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1626121898,
+            "lastActionTimestamp": 1626362200,
             "firstObservedTimestamp": 1626121898,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x986c983d3f51cd181956"
             }
         },
         "0xd33438ec98252ec5656d93b463b63c988082ace6": {
@@ -20613,13 +20805,13 @@
         "0x29717eb79b59f9610c036ea50741153a8826d5ff": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x228982f7d636610e"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1626123649,
+            "lastActionTimestamp": 1626779838,
             "firstObservedTimestamp": 1626123649,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x0211dc98a4a5d829e5340e"
             }
         },
         "0xcd981b0ffccdb668d2fcde9fff39b087939b1f37": {
@@ -20637,13 +20829,13 @@
         "0x2fcf6bbd6f9e111fdb3a72f384bc856a65927775": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x01093e7ab48cfb10"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1626125951,
+            "lastActionTimestamp": 1627286349,
             "firstObservedTimestamp": 1626125951,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x12587b848b0d160946e0"
             }
         },
         "0x0a08789f14e352e85801a2289716c671c5c2607a": {
@@ -20733,13 +20925,13 @@
         "0x51a125f89cbe0bfbfd62fee8a750aaec8fabc441": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x3e35a818065131a4"
+                "hex": "0x082cf03f66ea68baf4"
             },
-            "lastActionTimestamp": 1626141494,
+            "lastActionTimestamp": 1626814100,
             "firstObservedTimestamp": 1626141494,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x027e7773a241a582362638"
             }
         },
         "0x6c4b96cfce013c8d63da25f7227cbbb350feb6e3": {
@@ -20817,13 +21009,13 @@
         "0xf032f533a8814741345215a0710b0364953387a5": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x13fbf997eb62341f2b"
+                "hex": "0x12b3d6381c95c40000"
             },
-            "lastActionTimestamp": 1626171993,
+            "lastActionTimestamp": 1627286857,
             "firstObservedTimestamp": 1626171993,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x015240b4b0c8a48b6e10aebe"
             }
         },
         "0x72789e708f8473eecf3119f4ff38772631138a39": {
@@ -20877,13 +21069,13 @@
         "0xfc6567bb46c0d781997871f442a2351b17b9fbba": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x07f151dd47ffa015"
+                "hex": "0x2232a8e32b8cd5a0"
             },
-            "lastActionTimestamp": 1626189500,
+            "lastActionTimestamp": 1627225876,
             "firstObservedTimestamp": 1626189500,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x7d9a996f268ad32b1738"
             }
         },
         "0x8907b6d09cdfa963acc33396ca667a08ee3d6f10": {
@@ -20921,31 +21113,835 @@
                 "type": "BigNumber",
                 "hex": "0x00"
             }
+        },
+        "0x28fbaced10d2a547b9f47db5f6b49d44301b6c85": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x054a81b72254e856de"
+            },
+            "lastActionTimestamp": 1626207811,
+            "firstObservedTimestamp": 1626207733,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x043620ade942840c9e"
+            }
+        },
+        "0x8b3ee65857918a9e105c6dd1eb4ca4fca5f91bb2": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1627334613,
+            "firstObservedTimestamp": 1626209114,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x0de65a17122fb3f28bba60"
+            }
+        },
+        "0x178994ce860f045ed2762f47ed81949daaa60021": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x01300ea1701b909a29"
+            },
+            "lastActionTimestamp": 1626214598,
+            "firstObservedTimestamp": 1626214598,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x605b3a9ceaaba25448e7838adfd52ce16a0761bf": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x0cc7dab99f0ce883"
+            },
+            "lastActionTimestamp": 1626220653,
+            "firstObservedTimestamp": 1626220653,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x3a99a9e783a5d870af1653d228ff600398de8c80": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x033472b1fefa963d4b"
+            },
+            "lastActionTimestamp": 1626730985,
+            "firstObservedTimestamp": 1626256278,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x172fce5ef4bd9e7557f89e"
+            }
+        },
+        "0xb95d0877b4830858fdaf6a1111d8a233214c06b2": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1627338674,
+            "firstObservedTimestamp": 1626261446,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x2d80e64f710cb4f2306024"
+            }
+        },
+        "0x564b31fe75510a1adb311aece4faa63346ed142c": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626883701,
+            "firstObservedTimestamp": 1626272540,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x1a92a8964e80228fba1812"
+            }
+        },
+        "0xc84c19bbf07d0cb7cc430fc3c51173c4acd5dd9d": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x17f729fec5a109fb47"
+            },
+            "lastActionTimestamp": 1627147027,
+            "firstObservedTimestamp": 1626275943,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x49436aa97d55dae6611bb8"
+            }
+        },
+        "0x1146f36cf74fbb2971dcda652d0a3f4289a39d53": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x29e02aed2ff695"
+            },
+            "lastActionTimestamp": 1626307249,
+            "firstObservedTimestamp": 1626307249,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x3a3e2323d3eb1c9bc83b953959f5e0d05104a395": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x6e4fb6aa0292e5f4"
+            },
+            "lastActionTimestamp": 1626968309,
+            "firstObservedTimestamp": 1626325423,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x021c12c711da5138eee260"
+            }
+        },
+        "0x5732e7f7ca75d0ad647c4ad32708626aa5b34dc5": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626788796,
+            "firstObservedTimestamp": 1626333432,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x01e05e52ebc40ed2c41460"
+            }
+        },
+        "0x82f664ce636c37339a514b1d4f30fb1a44724779": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x457573d9b00e7bed"
+            },
+            "lastActionTimestamp": 1626338116,
+            "firstObservedTimestamp": 1626338116,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xa0f75491720835b36edc92d06ddc468d201e9b73": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x95b7b62abbb0be3cb1"
+            },
+            "lastActionTimestamp": 1626339380,
+            "firstObservedTimestamp": 1626338164,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0xdfda7a60f9d3f683e7c0"
+            }
+        },
+        "0x8f01ce31da22ee7182200428b36b5dec5bfdaebd": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x0565e05e65105aba49"
+            },
+            "lastActionTimestamp": 1626343545,
+            "firstObservedTimestamp": 1626343545,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x01e060498c74141ec7454c6b8cc670dd1a99a2dc": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x5db77597d9a8f757"
+            },
+            "lastActionTimestamp": 1626647449,
+            "firstObservedTimestamp": 1626388640,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x6c0c9dd820200340055d"
+            }
+        },
+        "0xf4c586a2dcd0afb8718f830c31de0c3c5c91b90c": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x015198ca7a18a6779f"
+            },
+            "lastActionTimestamp": 1627083190,
+            "firstObservedTimestamp": 1626399013,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x0b2140b73ea5702be7d3ac"
+            }
+        },
+        "0x392fa612154ccadd6b3b34048d4de84a4e2e0d8f": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x1ba9532a20e86c0e"
+            },
+            "lastActionTimestamp": 1626399488,
+            "firstObservedTimestamp": 1626399488,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x564175f454318a8023822eb7def99389d73b297b": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x5d73bcfc3dc5800b5f"
+            },
+            "lastActionTimestamp": 1626780349,
+            "firstObservedTimestamp": 1626404637,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x8b76444d9c28f8bcda3470"
+            }
+        },
+        "0x07fe984c446417c1ff4532ce4fd67eeb59a0d682": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x0114a0f8d22eec7cc7"
+            },
+            "lastActionTimestamp": 1626418935,
+            "firstObservedTimestamp": 1626418935,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x950a1d93c9d51409a6d537c49ad34cf42e01d31a": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x081ada99bac64a5119"
+            },
+            "lastActionTimestamp": 1626496369,
+            "firstObservedTimestamp": 1626433463,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x0297d92e15b573d924f952"
+            }
+        },
+        "0x22478d82df166327b035390cc6e1e698193e0590": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x0228d8e6175d3836cd"
+            },
+            "lastActionTimestamp": 1627006309,
+            "firstObservedTimestamp": 1626438188,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x0eb986105745befa574527"
+            }
+        },
+        "0x4f6f2c9b043fd246e4cae95a5463c9d9ff1bef05": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x02b39b4d72e62a121d"
+            },
+            "lastActionTimestamp": 1626458810,
+            "firstObservedTimestamp": 1626458810,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xb25e55e36cc998a546639365272f88fe2ce50753": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x2f43b5cb320c5fbf"
+            },
+            "lastActionTimestamp": 1626497495,
+            "firstObservedTimestamp": 1626497495,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x818c4df073ec43b80fd6e3bdd451382a390d0466": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x06ea8038f5e14e75"
+            },
+            "lastActionTimestamp": 1626498497,
+            "firstObservedTimestamp": 1626498497,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xe73d4d6c9087c95988c0757d740ffab47139c15c": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x019fb6c7e08dd08496"
+            },
+            "lastActionTimestamp": 1626513768,
+            "firstObservedTimestamp": 1626513768,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x320937d2ab6706deb8bd9518775e99ea51fa8d6c": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x95680be42b32f3c9"
+            },
+            "lastActionTimestamp": 1626524185,
+            "firstObservedTimestamp": 1626523765,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x7aa6cb20711fa630b8"
+            }
+        },
+        "0x6d7ac63aaa7ba8925dcb3e44be6355261dcf688f": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x015995eda907c02d59"
+            },
+            "lastActionTimestamp": 1626533432,
+            "firstObservedTimestamp": 1626533432,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xe3d47beccb31d105c149b37a9486d945cca1e469": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x0161e04eeb84dac6"
+            },
+            "lastActionTimestamp": 1626534581,
+            "firstObservedTimestamp": 1626534581,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xc3b1f7ab9fabd729cdf9e90ea54ec447f9464269": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x0199ef5fd96143b970"
+            },
+            "lastActionTimestamp": 1626604548,
+            "firstObservedTimestamp": 1626604548,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x7246a274656e797fab4b02eb1e0581d46f0358e2": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x23efce26c44617bc"
+            },
+            "lastActionTimestamp": 1627047976,
+            "firstObservedTimestamp": 1626639289,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x89e82692a6cc536f6d01"
+            }
+        },
+        "0x26a2570e1819910b76d7566f4443709c3151c987": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x8a36ea92bbaaa5a6"
+            },
+            "lastActionTimestamp": 1626648451,
+            "firstObservedTimestamp": 1626648451,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xedef1f09e42ae7a9d3837d1106a9d5e8b7b496e3": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x02b387ab556d9ad787"
+            },
+            "lastActionTimestamp": 1626671276,
+            "firstObservedTimestamp": 1626671276,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x4d6fd27e2d204fcfd21458eda4ced0ebe01e4c6d": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626824616,
+            "firstObservedTimestamp": 1626671690,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x10232ef31676ea212612"
+            }
+        },
+        "0xf37367432c50b355801575b8efe7f42e416d3761": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x037df792bd24b43b74"
+            },
+            "lastActionTimestamp": 1626673560,
+            "firstObservedTimestamp": 1626672689,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x060fbfc125d7bd63fca6"
+            }
+        },
+        "0x2f116785e09488737ae32fdc699da93f03828068": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x3377222d6d78ec8b"
+            },
+            "lastActionTimestamp": 1626681387,
+            "firstObservedTimestamp": 1626681387,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x5e5a953a496bfeeb5620968a7083fc060196c3fa": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x026de83876cd9e24e2"
+            },
+            "lastActionTimestamp": 1626694145,
+            "firstObservedTimestamp": 1626694145,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x4ad95eae8ce0f8e7948bf4a3ec4c904664ba0762": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x2e0c95c1828f0eef"
+            },
+            "lastActionTimestamp": 1626705536,
+            "firstObservedTimestamp": 1626705536,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x39d8b1c6e1bb28725e1eb64455e49dfcfcbaab49": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x6e8f1bd539622753"
+            },
+            "lastActionTimestamp": 1626717045,
+            "firstObservedTimestamp": 1626717045,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x0144c47df1cc4d52ff115f758918dc42a9db48aa": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x037daeef32e62d51"
+            },
+            "lastActionTimestamp": 1626724397,
+            "firstObservedTimestamp": 1626724397,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x4449dd09067dcaa55c15f40b465a5173778f8100": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x017532403ca0576b31"
+            },
+            "lastActionTimestamp": 1626737305,
+            "firstObservedTimestamp": 1626737305,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x4f4f34aad460df89f7ac8e296bc80a1899e391f0": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x33d89ff8ea38f46c"
+            },
+            "lastActionTimestamp": 1626741496,
+            "firstObservedTimestamp": 1626741496,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x79dd8c46c2c5f6a2b95d9cb8b78274008d2534fa": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x10b67fcce4de8d6b"
+            },
+            "lastActionTimestamp": 1626750796,
+            "firstObservedTimestamp": 1626750796,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x8c74fd2e5e428620d84bad84b165af8abdd79766": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x0f3287d2acb9f58b"
+            },
+            "lastActionTimestamp": 1626771996,
+            "firstObservedTimestamp": 1626771996,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x3a45e2f5ab0218d7c35aec963fca64de03934057": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x03de51568c832ba2"
+            },
+            "lastActionTimestamp": 1626777723,
+            "firstObservedTimestamp": 1626777279,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x02656c20820524f030"
+            }
+        },
+        "0xa870271a5193940f738e17f1fa1af4ee28d8fa50": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x03743659cb61657a"
+            },
+            "lastActionTimestamp": 1626777615,
+            "firstObservedTimestamp": 1626777615,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xb5c46131b4d8d13e4c0e476b9a2ea5b43945891e": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x23482e1d3f188574"
+            },
+            "lastActionTimestamp": 1626795312,
+            "firstObservedTimestamp": 1626795312,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x13712a5b8b92b629824df347a1670df5afaff263": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x0122299b1c9759720d"
+            },
+            "lastActionTimestamp": 1626811130,
+            "firstObservedTimestamp": 1626811130,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x8c80c1fe10912398bf0fe68a25839defcaef588e": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x07d31943376d8e6b73"
+            },
+            "lastActionTimestamp": 1626822369,
+            "firstObservedTimestamp": 1626822369,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x0c7440ffa65d5d1c7e1ee508da1b29f8b1766e0d": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x0212855eebc802a4"
+            },
+            "lastActionTimestamp": 1626824771,
+            "firstObservedTimestamp": 1626824771,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x078d423dced327d331fc8915d15ddeaaee6414ac": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x52e1dbc676c3e08b"
+            },
+            "lastActionTimestamp": 1626835414,
+            "firstObservedTimestamp": 1626835414,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x4ddce06e259a2e583a3b2425e0a135f45b323e75": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x17f9625e30699dee2f"
+            },
+            "lastActionTimestamp": 1626844300,
+            "firstObservedTimestamp": 1626844300,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x0659305689303121247078edace9ec042856902b": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0xb3a6add8ccabd7ff"
+            },
+            "lastActionTimestamp": 1626872593,
+            "firstObservedTimestamp": 1626872593,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x38d0dbecda3b81faa65cdce0cae4c4db30dec786": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x0c288242baf2ec4bae"
+            },
+            "lastActionTimestamp": 1627082172,
+            "firstObservedTimestamp": 1626914058,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x183be1bde6dcbfa4a53ab6"
+            }
+        },
+        "0x58b1e45ebdaf2b1f9611acf8bd5f9023fe881011": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x0392801ad723254be6"
+            },
+            "lastActionTimestamp": 1626950465,
+            "firstObservedTimestamp": 1626950465,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xbf30608066f972e705b54fe75411e54b34d671c3": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x0228ca42faaf919b3d"
+            },
+            "lastActionTimestamp": 1627005820,
+            "firstObservedTimestamp": 1627005820,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x2642e2883bc7344a42334624ac7c9d9254e03d37": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x17b040a0093bf2d8"
+            },
+            "lastActionTimestamp": 1627040756,
+            "firstObservedTimestamp": 1627040756,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x1e56566dc450392f8c64da0cee263b024ad5d2b1": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x2c3cdad7adcfbc"
+            },
+            "lastActionTimestamp": 1627119156,
+            "firstObservedTimestamp": 1627119156,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x4e6f10d1498d84fc0b3342974fe314dbdd3790ea": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x01623eb4e01f0c2b"
+            },
+            "lastActionTimestamp": 1627132448,
+            "firstObservedTimestamp": 1627132448,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xf84b2ca602470d271a0602c4b19dc6d03e20a20b": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x0dd2028234122a3e"
+            },
+            "lastActionTimestamp": 1627136509,
+            "firstObservedTimestamp": 1627136509,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x097e9b82f86e667acaeb7367088e506aefe37f1a": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x051d6c224b3005"
+            },
+            "lastActionTimestamp": 1627173438,
+            "firstObservedTimestamp": 1627173438,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x4e34e388ea82c2374daf6761fab2dce28d9c8872": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x0586fffcf6acde23"
+            },
+            "lastActionTimestamp": 1627181091,
+            "firstObservedTimestamp": 1627181091,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xd7ac4581ef4e2bb6cc3734da183b981bfd0ee2a2": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x04b9b2a17472c688"
+            },
+            "lastActionTimestamp": 1627196504,
+            "firstObservedTimestamp": 1627196504,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xdc1c5a3d2173d6bcc0d6a62b7e94c00f88ddbae8": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x4293fa9e4d98a5fb"
+            },
+            "lastActionTimestamp": 1627198519,
+            "firstObservedTimestamp": 1627198519,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x5172f2ad556f37a7845b056e43c000b38b5afc15": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0xeae6d25e5ff20d11"
+            },
+            "lastActionTimestamp": 1627272864,
+            "firstObservedTimestamp": 1627214121,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0xb669332536d7aecbc0b8"
+            }
+        },
+        "0x331944318f35c189d74c42651c4236cdb91f031c": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x451f91864088ee81"
+            },
+            "lastActionTimestamp": 1627242229,
+            "firstObservedTimestamp": 1627242229,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xbcb08c421356b47f746ad472b4d7073768b14aba": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x9b4d1c34a30de0c15a"
+            },
+            "lastActionTimestamp": 1627286049,
+            "firstObservedTimestamp": 1627286049,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x1b3b11e097cfb8450cce85cf935878b1728c1d50": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x445ff58a1b824728"
+            },
+            "lastActionTimestamp": 1627289855,
+            "firstObservedTimestamp": 1627289855,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
         }
     },
     "d4": {
         "0xf63bc5326c4d5ab123a20ec5d5805b365a3355e4": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x0d73e20673ff0e7c9047"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1624923092,
+            "lastActionTimestamp": 1626358633,
             "firstObservedTimestamp": 1624923092,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x0126acefede458d9bdaa830a53"
             }
         },
         "0x9eef87f4c08d8934cb2a3309df4dec5635338115": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0xe98d212573dc7a9ac0ba"
+                "hex": "0x011e4e963207e721888cb1"
             },
-            "lastActionTimestamp": 1626050423,
+            "lastActionTimestamp": 1627012181,
             "firstObservedTimestamp": 1624930591,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x02bf6ba361daff090050703183"
+                "hex": "0x154014de800c952bd0dbc33c59"
             }
         },
         "0xb7562f12e41c762cecda99d62bd6eac7b0c3b4c1": {
@@ -20963,25 +21959,25 @@
         "0xe66f86c7d3dc600c90e7a688dc79ce6f2b7a0e84": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x01eb8d4346094a1d3d03"
+                "hex": "0x02c48debfec9e17b4040"
             },
-            "lastActionTimestamp": 1624972103,
+            "lastActionTimestamp": 1627318480,
             "firstObservedTimestamp": 1624972103,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x44bef7600b5b0d516aea0d9b"
             }
         },
         "0x248f21a871e35bb5e808fa6129412f0ab8f04e02": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0xd225d82f5a6a5cd5e465"
+                "hex": "0xdf99ba35ce696b5274ac"
             },
-            "lastActionTimestamp": 1625015915,
+            "lastActionTimestamp": 1626358633,
             "firstObservedTimestamp": 1625015915,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x10d18fb9f67f167b358ebd8836"
             }
         },
         "0xf55fe8df2d0ea92ed6a0143d5687f5d632270907": {
@@ -21035,13 +22031,13 @@
         "0x424be8df5db7b04b1063bd4ee0f99db445c59624": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x0fd188a71b2e366bb8dc"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1625628245,
+            "lastActionTimestamp": 1626477418,
             "firstObservedTimestamp": 1625082021,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x58ef4f806f65ad34a682b20c"
+                "hex": "0x011815cd76d3d4212c530dfdcc"
             }
         },
         "0xa4fdc2103b412cc142bd7715dabab06f08ef842b": {
@@ -21107,13 +22103,13 @@
         "0xb4522eb2ca49963de9c3dc69023cbe6d53489c98": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x018741c3113fa53473cd"
+                "hex": "0x0185cb80945e95da969f"
             },
-            "lastActionTimestamp": 1626153758,
+            "lastActionTimestamp": 1626348447,
             "firstObservedTimestamp": 1625119336,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x04fb5807e86b8976a26a9b72"
+                "hex": "0x0985a86b26ec2cfc99a18dbf"
             }
         },
         "0x1f2f40fd6770da2bb833825a1dfd230238e4ecdb": {
@@ -21131,13 +22127,13 @@
         "0x357dfdc34f93388059d2eb09996d80f233037cba": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x1ead350ed29458bf3d64"
+                "hex": "0x0a8fa3a32a16fee81d08"
             },
-            "lastActionTimestamp": 1626178387,
+            "lastActionTimestamp": 1626699997,
             "firstObservedTimestamp": 1625135684,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x015f600c324d8dc6982222130b"
+                "hex": "0x02557a696b447b31414673b7d3"
             }
         },
         "0x36f26e2e5bed062968c17fc770863fd740713205": {
@@ -21203,13 +22199,13 @@
         "0xb9096d6db733d5971ebd4b901398e6e33bd7cc70": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x4d8f06d04c6306200f"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1625186046,
+            "lastActionTimestamp": 1626388672,
             "firstObservedTimestamp": 1625186046,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x058f3ffa66f35ebe6cd7825e"
             }
         },
         "0xf1213dfaf6a572d4bd5d79eab9182fc96d32fe0f": {
@@ -21263,13 +22259,13 @@
         "0xe551388b683bb1e34e27e5a7b00eabe79b080bf7": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x0218c2c1996cf18ac78b"
+                "hex": "0x0327cf93e4dba6bd0f4c"
             },
-            "lastActionTimestamp": 1625252512,
+            "lastActionTimestamp": 1627245664,
             "firstObservedTimestamp": 1625252512,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x509897d26e6a674875cfc538"
             }
         },
         "0x984a69a51f06044e6b79294c652fae499b333f49": {
@@ -21443,13 +22439,13 @@
         "0x2c9f6b8c807a26d73e19c8fa9323089e334a73dd": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x056bc75e2d63100000"
+                "hex": "0x04563918244f400000"
             },
-            "lastActionTimestamp": 1625677141,
+            "lastActionTimestamp": 1626313483,
             "firstObservedTimestamp": 1625677141,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x34a310e4eb86debd600000"
             }
         },
         "0x2d9796333d7a9007faa67006437b4c16ef8276e6": {
@@ -21527,13 +22523,13 @@
         "0xeb4db23c27253077fb3080adda6c5c127b0dacae": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x6c6aadea8ac24bd96d"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1625905281,
+            "lastActionTimestamp": 1626936429,
             "firstObservedTimestamp": 1625905281,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x06a9d61020c8f64a43220f7c"
             }
         },
         "0x5b191f5a2b4a867c4ed71858daccc51fc59c69c0": {
@@ -21551,13 +22547,13 @@
         "0x9915c60340e773ba76cfb785d3f11c9511615529": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x0b9ec93f41e007ba244f"
+                "hex": "0x057530c9b22838d19b"
             },
-            "lastActionTimestamp": 1626060869,
+            "lastActionTimestamp": 1626666052,
             "firstObservedTimestamp": 1625918188,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x0be1e590ee1a9e37003236"
+                "hex": "0x6b5a20aaebffa019168f91e7"
             }
         },
         "0x044a9c43e95aa9fd28eea25131a62b602d304f1f": {
@@ -21755,13 +22751,13 @@
         "0x3f3003dec579ffe478be29133c22dc1bb273a2b8": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x20759f96bec3fd34d054"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1626169799,
+            "lastActionTimestamp": 1626895702,
             "firstObservedTimestamp": 1626112892,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x1965cfdd17154823563e8561"
+                "hex": "0x013043c873bc08eb7f59a32105"
             }
         },
         "0x41ac57850c99e0c9927a126ce86fd89393415ed4": {
@@ -21815,13 +22811,13 @@
         "0x1405df5a6afef4c221d626c614d7a676f8a3c592": {
             "lastLPAmountSaved": {
                 "type": "BigNumber",
-                "hex": "0x010fdb1cbf2677406c02"
+                "hex": "0x00"
             },
-            "lastActionTimestamp": 1626162498,
+            "lastActionTimestamp": 1626786833,
             "firstObservedTimestamp": 1626162498,
             "timeWightedLPAmount": {
                 "type": "BigNumber",
-                "hex": "0x00"
+                "hex": "0x0a1ddc85f0a6e3c9f1b2619e"
             }
         },
         "0xdc5f094b02f03795a342da297b4d4fed410d7b95": {
@@ -21870,6 +22866,1470 @@
             "timeWightedLPAmount": {
                 "type": "BigNumber",
                 "hex": "0x00"
+            }
+        },
+        "0xea459a5aa7e52f0493eda1faae0b862c51bf40b9": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x1517ed69a702685412e1"
+            },
+            "lastActionTimestamp": 1626206354,
+            "firstObservedTimestamp": 1626206354,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x4e66c4fdc45a05a3df9b0b868288b878ef94df67": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x3dc0f2ab137f91b333b6"
+            },
+            "lastActionTimestamp": 1626206373,
+            "firstObservedTimestamp": 1626206373,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xb863a40001ee36264279598f52c4e9ebe5c6e9fe": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x776ca94e661b2e2ff0"
+            },
+            "lastActionTimestamp": 1626981365,
+            "firstObservedTimestamp": 1626207145,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x0582d92ef4ff20a62cb34d14"
+            }
+        },
+        "0x1d12d09793daf5eb834c8d29eb6a039c32b73813": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x0de0b13eab85a000"
+            },
+            "lastActionTimestamp": 1626715163,
+            "firstObservedTimestamp": 1626207277,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x07f6b94cb4ff8b914efcfda808"
+            }
+        },
+        "0x502b69542619449a77a981521aa930fe5af654ba": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x04804eb54e582ecc0594"
+            },
+            "lastActionTimestamp": 1626207296,
+            "firstObservedTimestamp": 1626207296,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x57ef012861c4937a76b5d6061be800199a2b9100": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x3fc2a952405bcf2f64fa"
+            },
+            "lastActionTimestamp": 1626207998,
+            "firstObservedTimestamp": 1626207998,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x5d7de07fd214f0ad436e808b0ffe338fca02043f": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x2a265d64bb80f6370357"
+            },
+            "lastActionTimestamp": 1626211774,
+            "firstObservedTimestamp": 1626211774,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xc887fadc6baaa8cd234d9104a65b37265522b024": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x04278f75df6d2fe1"
+            },
+            "lastActionTimestamp": 1627061775,
+            "firstObservedTimestamp": 1626213268,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x88cb6e35a0930bb633aa90cd"
+            }
+        },
+        "0x794a15f93ced01f1b0be5b184344f0b811851bc0": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x02ffe2f24e0f595bf666"
+            },
+            "lastActionTimestamp": 1626214125,
+            "firstObservedTimestamp": 1626214125,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xb352eab4ae5864281b95cf1de234b9b8ca2c5b1c": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x0cf00de27e51717d9458"
+            },
+            "lastActionTimestamp": 1626221793,
+            "firstObservedTimestamp": 1626221793,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x703af8aeb3a6462e547f4a9e4185acabba5ecde8": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x4bd55aca6cc1da3ba0"
+            },
+            "lastActionTimestamp": 1626228108,
+            "firstObservedTimestamp": 1626228108,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xa35b52835dc644444881dd51563d13ad987c148c": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x048a39e1b514da73f895"
+            },
+            "lastActionTimestamp": 1626229093,
+            "firstObservedTimestamp": 1626229093,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x53d10c2792343966911c849bc2e80e5938e9069a": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x2c3491b17574898e2a07"
+            },
+            "lastActionTimestamp": 1626231707,
+            "firstObservedTimestamp": 1626230508,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x138d9d665297ea88235a"
+            }
+        },
+        "0x45b522b0c2f7fed988f10e0eb14bd935d8872b59": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626836807,
+            "firstObservedTimestamp": 1626231250,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x01864eeec969eeb4d4c7f9516b"
+            }
+        },
+        "0x564b31fe75510a1adb311aece4faa63346ed142c": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x100746b89bec642fb310"
+            },
+            "lastActionTimestamp": 1627138314,
+            "firstObservedTimestamp": 1626236261,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x01a02dc7518e4f63c73e81086e"
+            }
+        },
+        "0x40e652fe0ec7329dc80282a6db8f03253046efde": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x207c81721e1385c4b05d"
+            },
+            "lastActionTimestamp": 1626549050,
+            "firstObservedTimestamp": 1626239727,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x7701221b6ef299b4d8422ae1"
+            }
+        },
+        "0xd0dc07b98769f23a7bdbef15a35faa256cb65dcf": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x31c657a2c9290910ea"
+            },
+            "lastActionTimestamp": 1626241357,
+            "firstObservedTimestamp": 1626241357,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x771decc16b2362144f86ac4d748038927e153593": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x3b996ac91c8f5a0d91"
+            },
+            "lastActionTimestamp": 1626244220,
+            "firstObservedTimestamp": 1626244220,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x95a40112c37d79f6833935ec780495d5d3e23178": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x35dbba23ab928801af81"
+            },
+            "lastActionTimestamp": 1626253916,
+            "firstObservedTimestamp": 1626250835,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x010c61f8361911b2375b50cc"
+            }
+        },
+        "0xa583f99495077952103235ad50606246d69e829f": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x23843c0590564af59a2d"
+            },
+            "lastActionTimestamp": 1626252505,
+            "firstObservedTimestamp": 1626252505,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x7532a9e3e9475337c8a907428e35932a20959fdf": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x1380391b00d37f201bdd"
+            },
+            "lastActionTimestamp": 1626262921,
+            "firstObservedTimestamp": 1626262921,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x1f84ca2c0a406b32e083e4e41032fd148364df48": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0xd3056d6827a04b16013a"
+            },
+            "lastActionTimestamp": 1626272231,
+            "firstObservedTimestamp": 1626268587,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x04b30aade6d54b566f1d4e5c"
+            }
+        },
+        "0x0ae83a9554c0137b06082b166871947ccc4e9674": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x81b7db1f55c24a43a2"
+            },
+            "lastActionTimestamp": 1626276206,
+            "firstObservedTimestamp": 1626276206,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x97eaad7c28ea5d8a2a320c765ec00bd789a52995": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x0d6de8d29fbdb3b018"
+            },
+            "lastActionTimestamp": 1626278275,
+            "firstObservedTimestamp": 1626278275,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x8fcfc4d481555d9b99b114e6ef237ad1ebdc222e": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626385022,
+            "firstObservedTimestamp": 1626283703,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x094b0737199b4308fcedbd70"
+            }
+        },
+        "0x74756b75fc77896a88ba3544572ce1595d78d7d9": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x01ff8de153e1ed003fe6"
+            },
+            "lastActionTimestamp": 1626284222,
+            "firstObservedTimestamp": 1626284222,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xd78fff207cde7c41540c9b65f7baf72c8930b605": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x01982826389d3d638b16"
+            },
+            "lastActionTimestamp": 1626289686,
+            "firstObservedTimestamp": 1626289686,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x9ae68ca8e9d4eea31568c70bc8b97da046c280dc": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x021b86d8daaf9326e221"
+            },
+            "lastActionTimestamp": 1626290973,
+            "firstObservedTimestamp": 1626290973,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x0af40aa282d01b390259737339e98c371734f199": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x15208c8ca2809bdec103"
+            },
+            "lastActionTimestamp": 1626295369,
+            "firstObservedTimestamp": 1626295369,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x3a3e2323d3eb1c9bc83b953959f5e0d05104a395": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x019275c52d4e84830760"
+            },
+            "lastActionTimestamp": 1626295860,
+            "firstObservedTimestamp": 1626295860,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xa3e2330e4fa9bb23d7eaaa3628b2c1906eead200": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x359cfc7019db281789"
+            },
+            "lastActionTimestamp": 1626305443,
+            "firstObservedTimestamp": 1626305443,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x87f4bf6a4728bf8086d47afa6f67224521dcd131": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x1bba2352f5c103aaa192"
+            },
+            "lastActionTimestamp": 1626305769,
+            "firstObservedTimestamp": 1626305769,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x4f6f2c9b043fd246e4cae95a5463c9d9ff1bef05": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626972168,
+            "firstObservedTimestamp": 1626313465,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x010bb40614dffa439de038e26b"
+            }
+        },
+        "0xe6487033f5c8e2b4726af54ca1449fec18bd1484": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1627338376,
+            "firstObservedTimestamp": 1626313483,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x0229706d7d1da5492fe96f0257"
+            }
+        },
+        "0x4a974495e20a8e0f5ce1de59eb15cfffd19bcf8d": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x0252fda5c6eb338f25d274"
+            },
+            "lastActionTimestamp": 1627338376,
+            "firstObservedTimestamp": 1626313728,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x1232b4695926566b252d8cadc9"
+            }
+        },
+        "0x6847259b2b3a4c17e7c43c54409810af48ba5210": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1627313453,
+            "firstObservedTimestamp": 1626313728,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x0716266cc5d3c443e30b0c4e9c72afa33778e1de": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x06c99e8977a791958694"
+            },
+            "lastActionTimestamp": 1626387827,
+            "firstObservedTimestamp": 1626315075,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x078c8192ff036332a83e0de0"
+            }
+        },
+        "0x68e845717ea2ae0ca63e7b2c9f6052fe7397e96e": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626316362,
+            "firstObservedTimestamp": 1626316205,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x78e7b4bf11f018d8c310"
+            }
+        },
+        "0x0f585d3a2f9d46433cce13e68377689a73868f75": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626319873,
+            "firstObservedTimestamp": 1626319277,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x031219361e5e09b26633bc"
+            }
+        },
+        "0x0f97258b5b506b210ba05f4c1f3c3cf84cc44496": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x0545da36756c6839ee4c"
+            },
+            "lastActionTimestamp": 1626320316,
+            "firstObservedTimestamp": 1626320316,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x67bc76e8fd78cc59594c9f43c643ea7cafa48669": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x0143d7be7c93fc8bdeeb"
+            },
+            "lastActionTimestamp": 1626325878,
+            "firstObservedTimestamp": 1626325878,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xacfe4511ce883c14c4ea40563f176c3c09b4c47c": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626386027,
+            "firstObservedTimestamp": 1626336396,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x03c11a40a5a5d37d506c23"
+            }
+        },
+        "0x066419eaef5de53cc5da0d8702b990c5bc7d1ab3": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x3863250bca597686d8"
+            },
+            "lastActionTimestamp": 1627338376,
+            "firstObservedTimestamp": 1626338994,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x011559782e3d98675994ad14"
+            }
+        },
+        "0x296e0c21db4061ebf971e55d5db85011e7ff9797": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x022e21f300ade81f616b"
+            },
+            "lastActionTimestamp": 1626356983,
+            "firstObservedTimestamp": 1626356983,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x25953c127efd1e15f4d2be82b753d49b12d626d7": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x01a6ee358d808be08b243b"
+            },
+            "lastActionTimestamp": 1626363841,
+            "firstObservedTimestamp": 1626363841,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xabe8b36b5cd7bf06921ee9afdea5453a10a8ea1c": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626371699,
+            "firstObservedTimestamp": 1626371600,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x021a290655015f186cc5"
+            }
+        },
+        "0x6c39856620df9607d51b630555cf3fb0db0b570b": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626372214,
+            "firstObservedTimestamp": 1626372131,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x552b834ad3c46c4458da"
+            }
+        },
+        "0xa9b88d39575ffcf1bbf14aea23c7810b8f502e08": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626375546,
+            "firstObservedTimestamp": 1626375379,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x65586778dad707f13cb9"
+            }
+        },
+        "0x6bff8fa6dd6c49f81b5dbeffca4a29d66cb4b08a": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626376722,
+            "firstObservedTimestamp": 1626376486,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x010302d59612d1ad1e2184"
+            }
+        },
+        "0x546fa2ddd676c4406877e118b545c6cae8d23d8f": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x0ce27ef99a65dc1906"
+            },
+            "lastActionTimestamp": 1626376545,
+            "firstObservedTimestamp": 1626376545,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x51a125f89cbe0bfbfd62fee8a750aaec8fabc441": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x037308cb45842786ce00"
+            },
+            "lastActionTimestamp": 1626665724,
+            "firstObservedTimestamp": 1626377651,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x05e50b6c35819fa086c71ec1"
+            }
+        },
+        "0x9d6a2716f843d84e2bf81127ffff5176a0b647c2": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626633741,
+            "firstObservedTimestamp": 1626377799,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x54d3805ac42f6a868de5"
+            }
+        },
+        "0x6b6c51c444fea186e7dab8963730f37faff1db16": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626381949,
+            "firstObservedTimestamp": 1626381831,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x02867b40a51cf7bcfa22"
+            }
+        },
+        "0xd0464a6a6e75dd3a92c5d85b343f053f81985759": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x058e504200b9e0d812da"
+            },
+            "lastActionTimestamp": 1626383573,
+            "firstObservedTimestamp": 1626383573,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xe519f4cd2803ba53a40e6377e82406e548418660": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626384568,
+            "firstObservedTimestamp": 1626384169,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x31de50278da142a16838ac"
+            }
+        },
+        "0x9fd80a6e5a91f22c2d2bf3592038123bfd45db91": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x092d08d3e4b47a1f24"
+            },
+            "lastActionTimestamp": 1626399900,
+            "firstObservedTimestamp": 1626399900,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xab12253171a0d73df64b115cd43fe0a32feb9daa": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0xd639a847ba88ac8312"
+            },
+            "lastActionTimestamp": 1626406687,
+            "firstObservedTimestamp": 1626406687,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xdfa8ee9ff8798b37800f3ab18807273d7caaf1b6": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626414103,
+            "firstObservedTimestamp": 1626413860,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x1e0d90221714b9bfcd3ca6"
+            }
+        },
+        "0xbb2d75ab1b0271bf90185c14711dd96b4b46dbc6": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626419723,
+            "firstObservedTimestamp": 1626419497,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x01e3215e2786cbcbd42484"
+            }
+        },
+        "0x47bc10781e8f71c0e7cf97b0a5a88f4cfff21309": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x07d812e1ed85f13ae559"
+            },
+            "lastActionTimestamp": 1626422384,
+            "firstObservedTimestamp": 1626422384,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xcbd7d22dd7f5b7e856478027844149c47999e38a": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626443080,
+            "firstObservedTimestamp": 1626442799,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x1757501caf1504de8872c6"
+            }
+        },
+        "0xb39235ebfe6bccb274cf4d05b80fd08ca98bfee4": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626445692,
+            "firstObservedTimestamp": 1626443836,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x59caef1212fca67649bf00"
+            }
+        },
+        "0xcab43b4cd5a325bb2506b7e2e635b3107cd32925": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x415d11ef5ac606574a"
+            },
+            "lastActionTimestamp": 1626459509,
+            "firstObservedTimestamp": 1626459509,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x0ddcb606e82e031e9eac01afb7fb2d54e64c2855": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x4686077218a8f656726b"
+            },
+            "lastActionTimestamp": 1626467904,
+            "firstObservedTimestamp": 1626467904,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x002ee33092457900515a4249e3ec1cd2b2dc8c32": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x0ab09a6f611e4c7e3a59"
+            },
+            "lastActionTimestamp": 1626472306,
+            "firstObservedTimestamp": 1626472306,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x9b73984273312c4ee3be4d34000e52b7db53c2d6": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x018763a553c2a385e6b4"
+            },
+            "lastActionTimestamp": 1626478258,
+            "firstObservedTimestamp": 1626478258,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x44c2968c98bfae5bd451f2cc524ef3e7103bdcc7": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626483267,
+            "firstObservedTimestamp": 1626481173,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0xadef3f39a4b5a124368bf8"
+            }
+        },
+        "0xab58779cec2b82a75ffd103fdc88d7e3adb13468": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1627124751,
+            "firstObservedTimestamp": 1626490700,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x15d84bb176bbeb3e972b0b"
+            }
+        },
+        "0x2b83ac024b0a4ba3f93776cacb61d98310614afe": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x7394ecc2e725ff3a1f"
+            },
+            "lastActionTimestamp": 1626491287,
+            "firstObservedTimestamp": 1626491287,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xe32c8561c14f5fcc6a4d4310cd866ae48aadd533": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1627338509,
+            "firstObservedTimestamp": 1626497169,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x78ad2ab7e38c5b0a5914c7"
+            }
+        },
+        "0x15939188ebfd516714bbe126def1ab7de8f52100": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626857641,
+            "firstObservedTimestamp": 1626497491,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x07018f0cf0aac46fbb6a06"
+            }
+        },
+        "0x4330b7633b5f9defd6ca0883a041bfd15a6c2295": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x0b747ade21e8a3b1d4"
+            },
+            "lastActionTimestamp": 1626511769,
+            "firstObservedTimestamp": 1626511769,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xca8586823a14d4187fc3fb15f854e96516909785": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x05660a63575dde571d"
+            },
+            "lastActionTimestamp": 1626516777,
+            "firstObservedTimestamp": 1626516777,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xac3c2f091edea973f666173b3ebd242a80fe411c": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x0d87a270dcfd7d64d8"
+            },
+            "lastActionTimestamp": 1626517774,
+            "firstObservedTimestamp": 1626517774,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xef1244af7099dce45ee7f937534f0968501efb29": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x032d2777d5404c5a84"
+            },
+            "lastActionTimestamp": 1626520540,
+            "firstObservedTimestamp": 1626520540,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xe2c626fff04a374d859583783a7222aa346da22b": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x0255f09d07922b9a45"
+            },
+            "lastActionTimestamp": 1626535672,
+            "firstObservedTimestamp": 1626535672,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x7bfee91193d9df2ac0bfe90191d40f23c773c060": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1627310467,
+            "firstObservedTimestamp": 1626537880,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x45116da9cf749a48af0ca1"
+            }
+        },
+        "0x9e301190d0bdf64e287d6205d86c488fbd37d4f8": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x2a22b97e3f6e15e382dd"
+            },
+            "lastActionTimestamp": 1626541197,
+            "firstObservedTimestamp": 1626541197,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x41bc7d0687e6cea57fa26da78379dfdc5627c56d": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x40140d9ac00de6f3ebfe"
+            },
+            "lastActionTimestamp": 1626557013,
+            "firstObservedTimestamp": 1626557013,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xc05d7b8c0753825bedf7b8474c64beadcab3fdb6": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626579948,
+            "firstObservedTimestamp": 1626579094,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x0a8e9996b2dc5b975d1a64"
+            }
+        },
+        "0xc3fd1227da579220afeb28b400dacc4ad6523c7c": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626584495,
+            "firstObservedTimestamp": 1626584317,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x34b9b0b4ab0dd01f1590"
+            }
+        },
+        "0xed2902f7c43c45e8348cbbe2fc438c6aa7cd2850": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626585889,
+            "firstObservedTimestamp": 1626585257,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x14d694cd322da1de0e6010"
+            }
+        },
+        "0x8864fcd125e24d3cf52aac71d0edc61922566740": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626595982,
+            "firstObservedTimestamp": 1626595048,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x0bb4dc41597b956c596ce6"
+            }
+        },
+        "0x0835283ae92194e867f98c70d6183a5bf4923a6a": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x311c5ba1158df607f6"
+            },
+            "lastActionTimestamp": 1626596191,
+            "firstObservedTimestamp": 1626596191,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xdf632ea5ba8283488aae8538e17a2f802243a61a": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x0419c1c67f6bfcc5cbd4"
+            },
+            "lastActionTimestamp": 1626611052,
+            "firstObservedTimestamp": 1626611052,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x8286cbe09c6e7a3c78763cb942b0e0c28ef86e56": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x381d274a2a70302745"
+            },
+            "lastActionTimestamp": 1626611455,
+            "firstObservedTimestamp": 1626611455,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xb1d2a85010086939b04ef1458ed9c0103c541bd5": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0xa6f37328fe29420bcc"
+            },
+            "lastActionTimestamp": 1626634938,
+            "firstObservedTimestamp": 1626634938,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x1ef8019a1793ef3283742d7aa975b9a66133a2d0": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x5715c5b454f552a104"
+            },
+            "lastActionTimestamp": 1626665342,
+            "firstObservedTimestamp": 1626637477,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x26bd0d3901b1ea97881432"
+            }
+        },
+        "0x0130aa3e09336793ea9e5e30db35df02fdcc8070": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x05d14c96938d21b12adf"
+            },
+            "lastActionTimestamp": 1626652428,
+            "firstObservedTimestamp": 1626652428,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x711cd20bf6b436ced327a8c65a14491aa04c2ca1": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x01a7b02bf27b454327a39f"
+            },
+            "lastActionTimestamp": 1626659793,
+            "firstObservedTimestamp": 1626659793,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x64ab826443f4454310a4b99e874f72b6e2cc1f6f": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x10221a197137ee1c7f"
+            },
+            "lastActionTimestamp": 1626673592,
+            "firstObservedTimestamp": 1626673592,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x887e25fb6e7e3eca05e771f096aee0f615b1bc81": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0xa36cb676dfbd149e84"
+            },
+            "lastActionTimestamp": 1626679966,
+            "firstObservedTimestamp": 1626679966,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xd8d024b6377bc04ec630e6ee59627c68b51120bc": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626710947,
+            "firstObservedTimestamp": 1626700072,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x01818a59d9c63781fd5da9"
+            }
+        },
+        "0xcfcdcde4d1c654ed980b4b3f6ff782194b3aa666": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626709455,
+            "firstObservedTimestamp": 1626707747,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x01d94a77c42025db4ab508"
+            }
+        },
+        "0x12b0e1b718b33d16512bd7a81c3680faee3c7e3f": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x0220efbec77f047bfc51"
+            },
+            "lastActionTimestamp": 1626726853,
+            "firstObservedTimestamp": 1626726853,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x40c9ed87b9510b23a91892c7d8a820add43b2dd5": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x2a294dc0aac46c1270f9"
+            },
+            "lastActionTimestamp": 1626730658,
+            "firstObservedTimestamp": 1626730658,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x535a00c4425bc194c748c34c42249d7c083c2013": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626737447,
+            "firstObservedTimestamp": 1626737305,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x368a3a6c96f508be9760"
+            }
+        },
+        "0x156a4c4e0fa4f08ad0cc1a2063c67690a3ce24b3": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x1f14e3298421aec3d3e8"
+            },
+            "lastActionTimestamp": 1626738081,
+            "firstObservedTimestamp": 1626738081,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xed56bc4d7dfc7e0cc3f5f3314141a054cb457192": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626763405,
+            "firstObservedTimestamp": 1626762846,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x0932f815baefb568579049"
+            }
+        },
+        "0xd455712e43582134f101a0c686d26548b5438a3b": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626774458,
+            "firstObservedTimestamp": 1626772910,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x2688aed05d7c23216e3780"
+            }
+        },
+        "0x2178118720e467b2d587ae97aeb82acbf0b8c230": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626776782,
+            "firstObservedTimestamp": 1626776581,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x0583fb7d4641a1fd84d9c6"
+            }
+        },
+        "0xd653971fa19ef68bc80becb7720675307bfb3ee6": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x025fbcfa68f2c7f67126"
+            },
+            "lastActionTimestamp": 1626805023,
+            "firstObservedTimestamp": 1626805023,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x864b81c40d8314d5c4289a14eb92f03b9f43b6bc": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x1291d2759b4dc1556d5c"
+            },
+            "lastActionTimestamp": 1626805058,
+            "firstObservedTimestamp": 1626805058,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xd80775766186ef44c73422fdf97d92701c27f70e": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x02be447174c1ba365c80"
+            },
+            "lastActionTimestamp": 1626824608,
+            "firstObservedTimestamp": 1626824608,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x078d423dced327d331fc8915d15ddeaaee6414ac": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x198b9dc7d5b1fd154b87"
+            },
+            "lastActionTimestamp": 1626832889,
+            "firstObservedTimestamp": 1626832889,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x1016a55d75632b93a0a8cfdf3704e39487b5a056": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x4a2c72572b6ac742cb"
+            },
+            "lastActionTimestamp": 1626833326,
+            "firstObservedTimestamp": 1626833326,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x9bba6257036c367e76baa8916725913a1ad60912": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626834182,
+            "firstObservedTimestamp": 1626834113,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x0757283da056a0c8f25b"
+            }
+        },
+        "0x455b731b921af12150aae1086807ee04453f30cb": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626835257,
+            "firstObservedTimestamp": 1626835178,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x0ff404df3c48b110999b23"
+            }
+        },
+        "0x787eff01c9fdc1918d1aa6eeff089b191e2922e4": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0xaba74c77facd4e0b8fda"
+            },
+            "lastActionTimestamp": 1626871397,
+            "firstObservedTimestamp": 1626871397,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0xc561c9b7035732b4ebdbae6ac43d6a293ab53896": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626876731,
+            "firstObservedTimestamp": 1626876593,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x04f396ac060ea826"
+            }
+        },
+        "0xd7ac4581ef4e2bb6cc3734da183b981bfd0ee2a2": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x01bd46cc2ab7a2b718"
+            },
+            "lastActionTimestamp": 1626936396,
+            "firstObservedTimestamp": 1626936396,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x4175f94d7e7b963255a1bfa0f25702248a84a7e0": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1626982662,
+            "firstObservedTimestamp": 1626980623,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x4d5bb00893b293c44f17a0"
+            }
+        },
+        "0x10c16c7b8b1ddcfe65990ec822de4379dd8a86de": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x1d115ed2e970822b4780"
+            },
+            "lastActionTimestamp": 1626996830,
+            "firstObservedTimestamp": 1626996830,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x171ab540b9cb730626db91f648e2b09eb5363484": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1627251985,
+            "firstObservedTimestamp": 1627014481,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x0ccd3151cd45da4ac273d7"
+            }
+        },
+        "0x33837822a540571d4591a2aeed4918725b840510": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x03d278f8c0bdf2768f89"
+            },
+            "lastActionTimestamp": 1627187328,
+            "firstObservedTimestamp": 1627096962,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x05dab0a769e962b75c7ec9ee"
+            }
+        },
+        "0x6965292e29514e527df092659fb4638dc39e7248": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0xd2b59a519df1ecb52182"
+            },
+            "lastActionTimestamp": 1627097638,
+            "firstObservedTimestamp": 1627097638,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x5e48b412f29411fb513fadf082978601bf1937d9": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1627103839,
+            "firstObservedTimestamp": 1627101201,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x8ce6c0bb79a02780aec8"
+            }
+        },
+        "0x6f6e16b3455d0e339cb2def9f65a05d480390b7b": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1627117117,
+            "firstObservedTimestamp": 1627115005,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x1229fb2bb668995117ef80"
+            }
+        },
+        "0x1501943d0223db29690323b99a86a6e3cefa1abc": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1627170062,
+            "firstObservedTimestamp": 1627170015,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x1a734e563dcf258d88ab"
+            }
+        },
+        "0x0c7440ffa65d5d1c7e1ee508da1b29f8b1766e0d": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x433b92310a6a1f3ec0"
+            },
+            "lastActionTimestamp": 1627179230,
+            "firstObservedTimestamp": 1627179230,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            }
+        },
+        "0x87c9ad753ea4d918f0b6fb21a555c30746ecc968": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1627252007,
+            "firstObservedTimestamp": 1627251586,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x043e400407e56aea2893fe"
+            }
+        },
+        "0x285e4f019a531e20f673b634d31922d408970798": {
+            "lastLPAmountSaved": {
+                "type": "BigNumber",
+                "hex": "0x00"
+            },
+            "lastActionTimestamp": 1627334938,
+            "firstObservedTimestamp": 1627334580,
+            "timeWightedLPAmount": {
+                "type": "BigNumber",
+                "hex": "0x4b9132d021067634220e"
             }
         }
     }
