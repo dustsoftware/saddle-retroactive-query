@@ -1,13 +1,20 @@
 import * as data from './json/retroactive_lp.json'
 
-import {BigNumber} from 'ethers';
-import fs from 'fs'
+import {BigNumber, ethers} from 'ethers';
 
-const START_BLOCK = 11685572
+import fs from 'fs'
+import readline from 'readline'
+
+// Minute granularity BTC and ETH price data is downloaded from: https://duneanalytics.com/queries/95400
+
+// The first swap was deployed on block 11685572, but we instead use the first block that liquidity was added
+const START_BLOCK = 11686727
+const START_BLOCK_TS = 1611072272
 const END_BLOCK = 12923115
+const AVERAGE_BLOCK_TIME = 13 // used to estimate the timestamps for blocks we do not have logs for
 const TOTAL_LP_TOKENS = 120_000_000
 const TOTAL_BLOCKS = END_BLOCK - START_BLOCK
-const TOKENS_PER_BLOCK = TOTAL_LP_TOKENS / TOTAL_BLOCKS
+const TOKENS_PER_BLOCK = ethers.utils.parseUnits(String(TOTAL_LP_TOKENS / TOTAL_BLOCKS), 18)
 
 let lpTransferLogs: LpTransferLog[] = data["default"]
 
@@ -44,6 +51,15 @@ interface TimeWeightedAmountOutputByAddress {
   [address: string] : {
     [pool: string] : string
   }
+}
+
+interface MinutePriceData {
+  BTC: string,
+  ETH: string
+}
+
+interface PriceData {
+  [timestamp: number] : MinutePriceData
 }
 
 function processMinting(holders: Holders, log: LpTransferLog) {
@@ -151,7 +167,36 @@ function prettyStringfy(json: any) {
     '    ')
 }
 
-function processAllLogs() {
+async function loadPriceData(): Promise<PriceData> {
+  const data: PriceData = {}
+
+  const rl = readline.createInterface({
+    input: fs.createReadStream("./prices.csv"),
+  })
+
+  for await (const line of rl) {
+    let [tsRaw, price, asset] = line.split(',')
+
+    let ts = Number(tsRaw)
+
+    if (!data[ts]) {
+      data[ts] = {
+        BTC: "",
+        ETH: ""
+      }
+    }
+
+    if (asset === "BTC") {
+      data[ts].BTC = price
+    } else if (asset === "ETH") {
+      data[ts].ETH = price
+    }
+  }
+
+  return data
+}
+
+async function processAllLogs() {
   let allHolders: AllHolders = {
     BTC: {},
     USD: {},
@@ -159,7 +204,13 @@ function processAllLogs() {
     alETH: {},
     d4: {}
   }
+  let rewards: { [address: string]: BigNumber} = {}
+  const totalPoolLPTokens: { [pool: string] : BigNumber} = {}
 
+  // Load price data
+  const priceData = await loadPriceData()
+
+  // Pre-process logs to group them by block
   let logsByBlock: Map<number, LpTransferLog[]> = new Map<number, LpTransferLog[]>()
   for (let log of lpTransferLogs) {
     const { block_number: raw } = log
@@ -174,20 +225,27 @@ function processAllLogs() {
     logsByBlock.set(block_number, logs)
   }
 
+  let ts: number
   for (let block = START_BLOCK; block <= END_BLOCK; block++) {
-    // console.log(`Processing block ${block}...`)
+    if (block % 10000 === 0) {
+      console.log(`Processing block ${block}...`)
+    }
 
     // Update state for the current block if there are transactions
     if (logsByBlock.has(block)) {
-      console.log(`Found logs: ${JSON.stringify(logsByBlock.get(block))}`)
+      // console.log(`Found logs: ${JSON.stringify(logsByBlock.get(block))}`)
 
       const blocks = logsByBlock.get(block)
+      // Parse and truncate the timestamp to minute level precision for retrieving pricing data
+      const parsed = Date.parse(blocks[0].block_timestamp) / 1000
+      ts = parsed - parsed % 60
+
+      // Filter blocks by transaction type for processing
       const minting = blocks.filter(log => log.address_from === "0x0000000000000000000000000000000000000000")
       const burning = blocks.filter(log => log.address_to === "0x0000000000000000000000000000000000000000")
       const transfers = blocks.filter(log => (log.address_from !== "0x0000000000000000000000000000000000000000" && log.address_to !== "0x0000000000000000000000000000000000000000"))
 
-      console.log(blocks.length, minting.length, burning.length, transfers.length)
-
+      // Process minting before burning
       for (let log of [...minting, ...transfers]) {
         let holders = allHolders[log.pool];
         processMinting(holders, log);
@@ -200,19 +258,57 @@ function processAllLogs() {
         allHolders[log.pool] = holders;
       }
 
-      // Distribute tokens
+      // Update LP token balances for each pool, we only do this when there are logs as an optimization
       for (let pool in allHolders) {
-        let total = BigNumber.from(0)
+        let totalLP = BigNumber.from(0)
         let holders = allHolders[pool]
         for (let address in holders) {
-          total = total.add(holders[address].lastLPAmountSaved)
+          totalLP = totalLP.add(holders[address].lastLPAmountSaved)
         }
+        totalPoolLPTokens[pool] = totalLP
+      }
+    } else {
+      // If there were no logs for a particular block we don't have the unix timestamp, so estimate it
+      const estimate = START_BLOCK_TS + ((block - START_BLOCK) * AVERAGE_BLOCK_TIME)
+      ts = estimate - estimate % 60
+    }
 
-        console.log(`Total LP tokens for ${pool}: ${total}`)
+    // Calculate total pool USD TVL
+    let totalUSDTVL = BigNumber.from(0)
+    for (let pool in allHolders) {
+      if (pool === "BTC") {
+        totalUSDTVL = totalUSDTVL.add(totalPoolLPTokens[pool].mul(ethers.utils.parseUnits(priceData[ts].BTC, 2)))
+      } else if (pool === "vETH2" || pool === "alETH") {
+        totalUSDTVL = totalUSDTVL.add(totalPoolLPTokens[pool].mul(ethers.utils.parseUnits(priceData[ts].ETH, 2)))
+      } else {
+        totalUSDTVL = totalUSDTVL.add(totalPoolLPTokens[pool])
+      }
+    }
+
+    // Distribute tokens
+    for (let pool in allHolders) {
+      let holders = allHolders[pool]
+      for (let address in holders) {
+        let userShare = holders[address].lastLPAmountSaved
+        if (!rewards[address]) rewards[address] = BigNumber.from(0)
+        if (pool === "BTC") {
+          rewards[address] = rewards[address].add(userShare.mul(ethers.utils.parseUnits(priceData[ts].BTC, 2)).mul(TOKENS_PER_BLOCK).div(totalUSDTVL))
+        } else if (pool === "vETH2" || pool === "alETH") {
+          rewards[address] = rewards[address].add(userShare.mul(ethers.utils.parseUnits(priceData[ts].ETH, 2)).mul(TOKENS_PER_BLOCK).div(totalUSDTVL))
+        } else {
+          rewards[address] = rewards[address].add(userShare.mul(TOKENS_PER_BLOCK).div(totalUSDTVL))
+        }
       }
     }
   }
 
+  // Sanity check the distribution
+  let totalRewardsDistributed = BigNumber.from(0)
+  for (const [_, reward] of Object.entries(rewards)) {
+    totalRewardsDistributed = totalRewardsDistributed.add(reward)
+  }
+
+  console.assert(ethers.utils.formatUnits(totalRewardsDistributed, 18) === String(TOTAL_LP_TOKENS), `rewards did not match (got, expected): ${ethers.utils.formatUnits(totalRewardsDistributed, 18) }, ${TOTAL_LP_TOKENS}`)
 
   // Write the allHolders object as JSON
   fs.writeFile("./json/retroactive_lp_timeweighted_detailed.json", prettyStringfy(allHolders), 'utf8' ,() => {})
