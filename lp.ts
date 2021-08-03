@@ -36,7 +36,6 @@ interface Holders {
     lastLPAmountSaved: BigNumber
     lastActionTimestamp: number
     firstObservedTimestamp: number
-    timeWightedLPAmount: BigNumber
   }
 }
 
@@ -46,18 +45,6 @@ interface AllHolders {
 
 interface TotalPoolLPTokens {
   [pool: string]: BigNumber
-}
-
-interface TimeWeightedAmountOutput {
-  [pool: string]: {
-    [address: string]: string
-  }
-}
-
-interface TimeWeightedAmountOutputByAddress {
-  [address: string]: {
-    [pool: string]: string
-  }
 }
 
 interface MinutePriceData {
@@ -81,20 +68,12 @@ function processMinting(
 
   tokens[pool] = tokens[pool].add(amount)
   if (address_to in holders) {
-    const {
-      lastLPAmountSaved,
-      lastActionTimestamp,
-      firstObservedTimestamp,
-      timeWightedLPAmount,
-    } = holders[address_to]
-    const timeDiff = currentTimestamp - lastActionTimestamp
-    const timeWeightedLPAmount = lastLPAmountSaved.mul(timeDiff)
+    const { lastLPAmountSaved, firstObservedTimestamp } = holders[address_to]
 
     holders[address_to] = {
       lastLPAmountSaved: lastLPAmountSaved.add(amount),
       lastActionTimestamp: currentTimestamp,
       firstObservedTimestamp: firstObservedTimestamp,
-      timeWightedLPAmount: timeWightedLPAmount.add(timeWeightedLPAmount),
     }
   } else {
     // No record for log.address_to found.
@@ -103,7 +82,6 @@ function processMinting(
       lastLPAmountSaved: BigNumber.from(amount),
       lastActionTimestamp: currentTimestamp,
       firstObservedTimestamp: currentTimestamp,
-      timeWightedLPAmount: BigNumber.from(0),
     }
   }
 }
@@ -114,18 +92,10 @@ function processBurning(
   log: LpTransferLog,
 ) {
   const { block_timestamp, pool, amount, address_from } = log
+  const { lastLPAmountSaved, firstObservedTimestamp } = holders[address_from]
   const currentTimestamp = Math.round(
     new Date(block_timestamp).getTime() / 1000,
   )
-
-  const {
-    lastLPAmountSaved,
-    lastActionTimestamp,
-    firstObservedTimestamp,
-    timeWightedLPAmount,
-  } = holders[address_from]
-  const timeDiff = currentTimestamp - lastActionTimestamp
-  const timeWeightedLPAmount = lastLPAmountSaved.mul(timeDiff)
 
   if (lastLPAmountSaved.sub(amount).lt(0)) {
     throw `user burned (${amount}) more than they had (${lastLPAmountSaved})`
@@ -136,65 +106,7 @@ function processBurning(
     lastLPAmountSaved: lastLPAmountSaved.sub(amount),
     lastActionTimestamp: currentTimestamp,
     firstObservedTimestamp: firstObservedTimestamp,
-    timeWightedLPAmount: timeWightedLPAmount.add(timeWeightedLPAmount),
   }
-}
-
-function processTimeWeightedAmount(
-  allHolders: AllHolders,
-): TimeWeightedAmountOutput {
-  const output: TimeWeightedAmountOutput = {}
-
-  const currentTimestamp = Math.round(new Date().getTime() / 1000)
-  let nonUniqueLPCount = 0
-
-  for (const pool in allHolders) {
-    output[pool] = {}
-    const holders = allHolders[pool]
-    for (const address in holders) {
-      const { lastActionTimestamp, lastLPAmountSaved, timeWightedLPAmount } =
-        holders[address]
-      const timeDiff = currentTimestamp - lastActionTimestamp
-      const timeWeightedLPAmount = lastLPAmountSaved.mul(timeDiff)
-      holders[address].timeWightedLPAmount =
-        timeWightedLPAmount.add(timeWeightedLPAmount)
-      output[pool][address] = holders[address].timeWightedLPAmount.toString()
-      nonUniqueLPCount++
-    }
-    allHolders[pool] = holders
-
-    output[pool] = Object.entries(output[pool])
-      .sort(([, a], [, b]) => {
-        const bigA = BigNumber.from(a)
-        const bigB = BigNumber.from(b)
-        return bigA.lt(bigB) ? 1 : bigA.gt(bigB) ? -1 : 0
-      })
-      .reduce((r, [k, v]) => ({ ...r, [k]: v }), {})
-  }
-  console.log(`Non-unique LP count: ${nonUniqueLPCount}`)
-  return output
-}
-
-function groupByAddress(
-  timeWeightedAmounts: TimeWeightedAmountOutput,
-): TimeWeightedAmountOutputByAddress {
-  const output: TimeWeightedAmountOutputByAddress = {}
-  let uniqueLPCount = 0
-
-  for (const pool in timeWeightedAmounts) {
-    for (const address in timeWeightedAmounts[pool]) {
-      if (address in output) {
-        output[address][pool] = timeWeightedAmounts[pool][address]
-      } else {
-        output[address] = {
-          [pool]: timeWeightedAmounts[pool][address],
-        }
-        uniqueLPCount++
-      }
-    }
-  }
-  console.log(`Unique LP count: ${uniqueLPCount}`)
-  return output
 }
 
 function prettyStringify(json: any) {
@@ -203,14 +115,12 @@ function prettyStringify(json: any) {
 
 async function loadPriceData(): Promise<PriceData> {
   const data: PriceData = {}
-
   const rl = readline.createInterface({
     input: fs.createReadStream("./prices.csv"),
   })
 
   for await (const line of rl) {
     const [tsRaw, price, asset] = line.split(",")
-
     const ts = Number(tsRaw)
 
     if (!data[ts]) {
@@ -228,6 +138,16 @@ async function loadPriceData(): Promise<PriceData> {
   }
 
   return data
+}
+
+function getTokenPrice(pool: string, priceData: MinutePriceData): BigNumber {
+  let tokenPrice = BigNumber.from(1)
+  if (["BTC"].includes(pool)) {
+    tokenPrice = ethers.utils.parseUnits(priceData.BTC, 2)
+  } else if (["vETH2", "alETH"].includes(pool)) {
+    tokenPrice = ethers.utils.parseUnits(priceData.ETH, 2)
+  }
+  return tokenPrice
 }
 
 async function processAllLogs() {
@@ -320,12 +240,7 @@ async function processAllLogs() {
     // Calculate total pool USD TVL
     let totalUSDTVL = BigNumber.from(0)
     for (const pool in allHolders) {
-      let tokenPrice = BigNumber.from(1)
-      if (["BTC"].includes(pool)) {
-        tokenPrice = ethers.utils.parseUnits(priceData[ts].BTC, 2)
-      } else if (["vETH2", "alETH"].includes(pool)) {
-        tokenPrice = ethers.utils.parseUnits(priceData[ts].ETH, 2)
-      }
+      const tokenPrice = getTokenPrice(pool, priceData[ts])
       totalUSDTVL = totalUSDTVL.add(lpTokens[pool].mul(tokenPrice))
     }
 
@@ -338,12 +253,7 @@ async function processAllLogs() {
         const userLPAmount = holders[address].lastLPAmountSaved
         if (!rewards[address]) rewards[address] = BigNumber.from(0)
 
-        let tokenPrice = BigNumber.from(1)
-        if (["BTC"].includes(pool)) {
-          tokenPrice = ethers.utils.parseUnits(priceData[ts].BTC, 2)
-        } else if (["vETH2", "alETH"].includes(pool)) {
-          tokenPrice = ethers.utils.parseUnits(priceData[ts].ETH, 2)
-        }
+        const tokenPrice = getTokenPrice(pool, priceData[ts])
         rewards[address] = rewards[address].add(
           userLPAmount.mul(tokenPrice).mul(TOKENS_PER_BLOCK).div(totalUSDTVL),
         )
@@ -366,28 +276,10 @@ async function processAllLogs() {
     )}, ${TOTAL_LP_TOKENS}`,
   )
 
-  // Write the allHolders object as JSON
+  // Write the rewards object as JSON
   await fs.promises.writeFile(
-    "./json/retroactive_lp_timeweighted_detailed.json",
-    prettyStringify(allHolders),
-    "utf8",
-  )
-
-  // Clean up allHolders objects to have only timeweighted amounts
-  const timeWeightedAmountOutput = processTimeWeightedAmount(allHolders)
-  await fs.promises.writeFile(
-    "./json/retroactive_lp_timeweighted.json",
-    prettyStringify(timeWeightedAmountOutput),
-    "utf8",
-  )
-
-  // Group by addresses
-  const timeWeightedAmountOutputGroupedByAddress = groupByAddress(
-    timeWeightedAmountOutput,
-  )
-  await fs.promises.writeFile(
-    "./json/retroactive_lp_timeweighted_by_address.json",
-    prettyStringify(timeWeightedAmountOutputGroupedByAddress),
+    "./json/retroactive_lp_rewards.json",
+    prettyStringify(rewards),
     "utf8",
   )
 }
