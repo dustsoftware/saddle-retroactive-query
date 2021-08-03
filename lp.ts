@@ -259,6 +259,7 @@ async function processAllLogs() {
       }
 
       // Update LP token balances for each pool, we only do this when there are logs as an optimization
+      // TODO: Move this to the process* functions so we only process the incremental changes
       for (let pool in allHolders) {
         let totalLP = BigNumber.from(0)
         let holders = allHolders[pool]
@@ -286,6 +287,8 @@ async function processAllLogs() {
     }
 
     // Distribute tokens
+    // TODO: Double the rewards issuance during the guarded launch period
+    // TODO: Parallelize with promises for a performance improvement?
     for (let pool in allHolders) {
       let holders = allHolders[pool]
       for (let address in holders) {
