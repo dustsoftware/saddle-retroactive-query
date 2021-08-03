@@ -262,14 +262,12 @@ async function processAllLogs() {
     }
   }
 
-  for (const [address, reward] of Object.entries(rewards)) {
-    console.log(address, reward.toString())
-  }
-
-  // Sanity check the distribution
+  // Sanity check the distribution and convert BigNumber to string for output
+  const output: { [address: string]: string } = {}
   let totalRewardsDistributed = BigNumber.from(0)
-  for (const [, reward] of Object.entries(rewards)) {
+  for (const [address, reward] of Object.entries(rewards)) {
     totalRewardsDistributed = totalRewardsDistributed.add(reward)
+    output[address] = reward.toString()
   }
 
   console.assert(
@@ -284,7 +282,7 @@ async function processAllLogs() {
   // Write the rewards object as JSON
   await fs.promises.writeFile(
     "./json/retroactive_lp_rewards.json",
-    prettyStringify(rewards),
+    prettyStringify(output),
     "utf8",
   )
 }
