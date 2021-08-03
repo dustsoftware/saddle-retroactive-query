@@ -186,7 +186,7 @@ function groupByAddress(
   return output
 }
 
-function prettyStringfy(json: any) {
+function prettyStringify(json: any) {
   return JSON.stringify(json, null, "    ")
 }
 
@@ -371,7 +371,7 @@ async function processAllLogs() {
   // Write the allHolders object as JSON
   await fs.promises.writeFile(
     "./json/retroactive_lp_timeweighted_detailed.json",
-    prettyStringfy(allHolders),
+    prettyStringify(allHolders),
     "utf8",
   )
 
@@ -379,7 +379,7 @@ async function processAllLogs() {
   const timeWeightedAmountOutput = processTimeWeightedAmount(allHolders)
   await fs.promises.writeFile(
     "./json/retroactive_lp_timeweighted.json",
-    prettyStringfy(timeWeightedAmountOutput),
+    prettyStringify(timeWeightedAmountOutput),
     "utf8",
   )
 
@@ -389,7 +389,7 @@ async function processAllLogs() {
   )
   await fs.promises.writeFile(
     "./json/retroactive_lp_timeweighted_by_address.json",
-    prettyStringfy(timeWeightedAmountOutputGroupedByAddress),
+    prettyStringify(timeWeightedAmountOutputGroupedByAddress),
     "utf8",
   )
 }
