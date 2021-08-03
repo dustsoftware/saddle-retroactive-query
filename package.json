@@ -5,7 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "parse": "ts-node lp.ts",
+    "parse": "ts-node index.ts",
     "lint": "eslint --ext ts *.ts && prettier --list-different *.ts",
     "lint:fix": "eslint --ext ts --fix *.ts && prettier --write *.ts"
   },
