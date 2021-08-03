@@ -41,6 +41,10 @@ interface AllHolders {
   [pool: string]: Holders
 }
 
+interface TotalPoolLPTokens {
+  [pool: string]: BigNumber;
+}
+
 interface TimeWeightedAmountOutput {
   [pool: string] : {
     [address: string] : string
@@ -62,9 +66,10 @@ interface PriceData {
   [timestamp: number] : MinutePriceData
 }
 
-function processMinting(holders: Holders, log: LpTransferLog) {
+function processMinting(holders: Holders, tokens: TotalPoolLPTokens, log: LpTransferLog) {
   let currentTimestamp = Math.round(new Date(log.block_timestamp).getTime() / 1000)
 
+  tokens[log.pool] = tokens[log.pool].add(log.amount)
   if (holders.hasOwnProperty(log.address_to)) {
     let holder = holders[log.address_to]
     let lastLPAmountSaved = holder.lastLPAmountSaved
@@ -89,7 +94,7 @@ function processMinting(holders: Holders, log: LpTransferLog) {
   }
 }
 
-function processBurning(holders: Holders, log: LpTransferLog) {
+function processBurning(holders: Holders, tokens: TotalPoolLPTokens, log: LpTransferLog) {
   let currentTimestamp = Math.round(new Date(log.block_timestamp).getTime() / 1000)
 
   let holder = holders[log.address_from]
@@ -101,6 +106,7 @@ function processBurning(holders: Holders, log: LpTransferLog) {
     throw(`user burned (${log.amount}) more than they had (${lastLPAmountSaved})`)
   }
 
+  tokens[log.pool] = tokens[log.pool].sub(log.amount)
   holders[log.address_from] = {
     lastLPAmountSaved: lastLPAmountSaved.sub(log.amount),
     lastActionTimestamp: currentTimestamp,
@@ -204,8 +210,14 @@ async function processAllLogs() {
     alETH: {},
     d4: {}
   }
+  let lpTokens: TotalPoolLPTokens = {
+    BTC: BigNumber.from(0),
+    USD: BigNumber.from(0),
+    vETH2: BigNumber.from(0),
+    alETH: BigNumber.from(0),
+    d4: BigNumber.from(0)
+  }
   let rewards: { [address: string]: BigNumber} = {}
-  const totalPoolLPTokens: { [pool: string] : BigNumber} = {}
 
   // Load price data
   const priceData = await loadPriceData()
@@ -248,25 +260,14 @@ async function processAllLogs() {
       // Process minting before burning
       for (let log of [...minting, ...transfers]) {
         let holders = allHolders[log.pool];
-        processMinting(holders, log);
+        processMinting(holders, lpTokens, log);
         allHolders[log.pool] = holders;
       }
 
       for (let log of [...burning, ...transfers]) {
         let holders = allHolders[log.pool];
-        processBurning(holders, log);
+        processBurning(holders, lpTokens, log);
         allHolders[log.pool] = holders;
-      }
-
-      // Update LP token balances for each pool, we only do this when there are logs as an optimization
-      // TODO: Move this to the process* functions so we only process the incremental changes
-      for (let pool in allHolders) {
-        let totalLP = BigNumber.from(0)
-        let holders = allHolders[pool]
-        for (let address in holders) {
-          totalLP = totalLP.add(holders[address].lastLPAmountSaved)
-        }
-        totalPoolLPTokens[pool] = totalLP
       }
     } else {
       // If there were no logs for a particular block we don't have the unix timestamp, so estimate it
@@ -278,11 +279,11 @@ async function processAllLogs() {
     let totalUSDTVL = BigNumber.from(0)
     for (let pool in allHolders) {
       if (pool === "BTC") {
-        totalUSDTVL = totalUSDTVL.add(totalPoolLPTokens[pool].mul(ethers.utils.parseUnits(priceData[ts].BTC, 2)))
+        totalUSDTVL = totalUSDTVL.add(lpTokens[pool].mul(ethers.utils.parseUnits(priceData[ts].BTC, 2)))
       } else if (pool === "vETH2" || pool === "alETH") {
-        totalUSDTVL = totalUSDTVL.add(totalPoolLPTokens[pool].mul(ethers.utils.parseUnits(priceData[ts].ETH, 2)))
+        totalUSDTVL = totalUSDTVL.add(lpTokens[pool].mul(ethers.utils.parseUnits(priceData[ts].ETH, 2)))
       } else {
-        totalUSDTVL = totalUSDTVL.add(totalPoolLPTokens[pool])
+        totalUSDTVL = totalUSDTVL.add(lpTokens[pool])
       }
     }
 
