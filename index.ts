@@ -19,9 +19,9 @@ const TOKENS_PER_BLOCK = ethers.utils.parseUnits(
   18,
 )
 
-const lpTransferLogs: LpTransferLog[] = data["default"]
+const lpTransferLogs: LPTransferLog[] = data["default"]
 
-interface LpTransferLog {
+interface LPTransferLog {
   block_number: number
   block_timestamp: string
   transaction_hash: string
@@ -59,7 +59,7 @@ interface PriceData {
 function processMinting(
   holders: Holders,
   tokens: TotalPoolLPTokens,
-  log: LpTransferLog,
+  log: LPTransferLog,
 ) {
   const { block_timestamp, pool, amount, address_to } = log
   const currentTimestamp = Math.round(
@@ -89,7 +89,7 @@ function processMinting(
 function processBurning(
   holders: Holders,
   tokens: TotalPoolLPTokens,
-  log: LpTransferLog,
+  log: LPTransferLog,
 ) {
   const { block_timestamp, pool, amount, address_from } = log
   const { lastLPAmountSaved, firstObservedTimestamp } = holders[address_from]
@@ -171,16 +171,16 @@ async function processAllLogs() {
   const priceData = await loadPriceData()
 
   // Pre-process logs to group them by block
-  const logsByBlock: Map<number, LpTransferLog[]> = new Map<
+  const logsByBlock: Map<number, LPTransferLog[]> = new Map<
     number,
-    LpTransferLog[]
+    LPTransferLog[]
   >()
   for (const log of lpTransferLogs) {
     const { block_number: raw } = log
     // TODO: why does this not work without explicitly casting?
     const block_number = Number(raw)
 
-    let logs: LpTransferLog[] = []
+    let logs: LPTransferLog[] = []
     if (logsByBlock.has(block_number)) {
       logs = logsByBlock.get(block_number)
     }
