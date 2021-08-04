@@ -10,10 +10,13 @@ import readline from "readline"
 // The first swap was deployed on block 11685572, but we instead use the first block that liquidity was added
 const START_BLOCK = 11686727
 const START_BLOCK_TS = 1611072272
+const GUARDED_LAUNCH_END_BLOCK = 11909762 // https://etherscan.io/tx/0xedc38ea0b5f1cc740c6659cdecdc5b379bcd77b1eae59709d41e9811b92a4d66
 const END_BLOCK = 12923115
 const AVERAGE_BLOCK_TIME = 13 // used to estimate the timestamps for blocks we do not have logs for
 const TOTAL_LP_TOKENS = 120_000_000
-const TOTAL_BLOCKS = END_BLOCK - START_BLOCK
+// Double count the guarded launch since LP'ing during counts for 2X the duration
+const TOTAL_BLOCKS =
+  END_BLOCK - START_BLOCK + (GUARDED_LAUNCH_END_BLOCK - START_BLOCK)
 const TOKENS_PER_BLOCK = ethers.utils.parseUnits(
   String(TOTAL_LP_TOKENS / TOTAL_BLOCKS),
   18,
@@ -245,7 +248,10 @@ async function processAllLogs() {
     }
 
     // Distribute tokens
-    // TODO: Double the rewards issuance during the guarded launch period
+    const reward =
+      block < GUARDED_LAUNCH_END_BLOCK
+        ? TOKENS_PER_BLOCK.mul(2)
+        : TOKENS_PER_BLOCK
     for (const pool in allHolders) {
       const holders = allHolders[pool]
       await Promise.all(
@@ -255,7 +261,7 @@ async function processAllLogs() {
 
           const tokenPrice = getTokenPrice(pool, priceData[ts])
           rewards[address] = rewards[address].add(
-            userLPAmount.mul(tokenPrice).mul(TOKENS_PER_BLOCK).div(totalUSDTVL),
+            userLPAmount.mul(tokenPrice).mul(reward).div(totalUSDTVL),
           )
         }),
       )
