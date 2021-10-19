@@ -37,7 +37,7 @@ BEGIN
                    address = '0xf74ebe6e5586275dc4CeD78F5DBEF31B1EfbE7a5' OR -- tBTCv2 metapool
                    address = '0x3F1d224557afA4365155ea77cE4BC32D5Dae2174') -- WCUSD metapool
               AND topics[SAFE_OFFSET(0)] = '0xc6c1e0630dbe9130cc068028486c0d118ddcea348550819defd5cb8c257f8a38'
-              AND block_number <= 12936340 -- 2021-08-01 00:00:17
+              AND block_number <= 13330090 -- 2021-10-01 00:00:00
         );
 
 END;

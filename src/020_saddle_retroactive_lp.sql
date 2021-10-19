@@ -37,7 +37,7 @@ BEGIN
                    address = '0x122Eca07139EB368245A29FB702c9ff11E9693B7' OR -- tBTC metapool lp token
                    address = '0x78179d49C13c4ECa14C69545ec172Ba0179EAE6B') -- wCUSD metapool lp token
               AND topics[SAFE_OFFSET(0)] = '0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef'
-              AND block_number <= 12936340 -- 2021-08-01 00:00:17
+              AND block_number <= 13330090 -- 2021-10-01 00:00:00
         );
 
 END;
