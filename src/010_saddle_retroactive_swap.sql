@@ -23,8 +23,7 @@ BEGIN
                    PARSE_SADDLE_SWAP_EVENTS(logs.data, logs.topics).tokensSold   as tokensSold,
                    PARSE_SADDLE_SWAP_EVENTS(logs.data, logs.topics).tokensBought as tokensBought,
                    PARSE_SADDLE_SWAP_EVENTS(logs.data, logs.topics).soldId       as soldId,
-                   PARSE_SADDLE_SWAP_EVENTS(logs.data, logs.topics).boughtId     as boughtId,
-                   "Swap" as type
+                   PARSE_SADDLE_SWAP_EVENTS(logs.data, logs.topics).boughtId     as boughtId
 
             FROM `bigquery-public-data.crypto_ethereum.logs` AS logs
             WHERE (address = '0x4f6a43ad7cba042606decaca730d4ce0a57ac62e' OR -- BTC pool
@@ -36,8 +35,9 @@ BEGIN
                    address = '0x0C8BAe14c9f9BF2c953997C881BEfaC7729FD314' OR -- sUSD metapool
                    address = '0xdf3309771d2BF82cb2B6C56F9f5365C8bD97c4f2' OR -- BTCv2 pool
                    address = '0xf74ebe6e5586275dc4CeD78F5DBEF31B1EfbE7a5' OR -- tBTCv2 metapool
-                   address = '0x3F1d224557afA4365155ea77cE4BC32D5Dae2174') -- WCUSD metapool
-              AND topics[SAFE_OFFSET(0)] = '0xc6c1e0630dbe9130cc068028486c0d118ddcea348550819defd5cb8c257f8a38' -- "TokenSwap" event
+                   address = '0x3F1d224557afA4365155ea77cE4BC32D5Dae2174')             -- WCUSD metapool
+              AND topics[SAFE_OFFSET(0)] =
+                  '0xc6c1e0630dbe9130cc068028486c0d118ddcea348550819defd5cb8c257f8a38' -- "TokenSwap" event
               AND block_number <= 13330090 -- 2021-10-01 00:00:00
         );
 
