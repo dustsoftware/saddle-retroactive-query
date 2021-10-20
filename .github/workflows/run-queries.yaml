@@ -34,7 +34,7 @@ jobs:
       matrix:
         schema:
           - file: "./src/010_saddle_retroactive_swap.sql"
-          - file: "./src/010_saddle_retroactive_lp.sql"
+          - file: "./src/020_saddle_retroactive_lp.sql"
 
     steps:
       - uses: actions/checkout@v2
