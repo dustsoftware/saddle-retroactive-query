@@ -33,17 +33,8 @@ jobs:
       max-parallel: 1
       matrix:
         schema:
-          - file: "./src/010_saddle_BTCPool_swap.sql"
-          - file: "./src/011_saddle_BTCPool_LP.sql"
-          - file: "./src/020_saddle_USDPool_swap.sql"
-          - file: "./src/021_saddle_USDPool_LP.sql"
-          - file: "./src/030_saddle_vETH2Pool_swap.sql"
-          - file: "./src/031_saddle_vETH2Pool_LP.sql"
-          - file: "./src/040_saddle_alETHPool_swap.sql"
-          - file: "./src/041_saddle_alETHPool_LP.sql"
-          - file: "./src/050_saddle_d4Pool_swap.sql"
-          - file: "./src/051_saddle_d4Pool_LP.sql"
-          - file: "./src/999_aggregate.sql"
+          - file: "./src/010_saddle_retroactive_swap.sql"
+          - file: "./src/010_saddle_retroactive_lp.sql"
 
     steps:
       - uses: actions/checkout@v2
