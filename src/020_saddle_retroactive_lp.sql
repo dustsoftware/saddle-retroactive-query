@@ -21,6 +21,7 @@ BEGIN
         (
             SELECT logs.address                                                  as token,
                    logs.block_number                                             as block_number,
+                   logs.block_timestamp                                          as block_timestamp,
                    PARSE_SADDLE_LP_TRANSFER_EVENTS(logs.data, logs.topics).from  as address_from,
                    PARSE_SADDLE_LP_TRANSFER_EVENTS(logs.data, logs.topics).to    as address_to,
                    PARSE_SADDLE_LP_TRANSFER_EVENTS(logs.data, logs.topics).value as amount
