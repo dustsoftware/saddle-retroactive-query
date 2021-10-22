@@ -35,7 +35,7 @@ BEGIN
                    address = '0x0c8bae14c9f9bf2c953997c881befac7729fd314' OR -- sUSD metapool
                    address = '0xdf3309771d2bf82cb2b6c56f9f5365c8bd97c4f2' OR -- BTCv2 pool
                    address = '0xf74ebe6e5586275dc4ced78f5dbef31b1efbe7a5' OR -- tBTCv2 metapool
-                   address = '0x3f1d224557afa4365155ea77ce4bc32d5dae2174')             -- WCUSD metapool
+                   address = '0x3f1d224557afa4365155ea77ce4bc32d5dae2174')   -- WCUSD metapool
               AND topics[SAFE_OFFSET(0)] =
                   '0xc6c1e0630dbe9130cc068028486c0d118ddcea348550819defd5cb8c257f8a38' -- "TokenSwap" event
               AND block_number <= 13330090 -- 2021-10-01 00:00:00
