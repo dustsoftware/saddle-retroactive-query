@@ -21,7 +21,7 @@ const TOKENS_PER_BLOCK = ethers.utils.parseUnits(
   String(TOTAL_LP_TOKENS / TOTAL_BLOCKS),
   18,
 )
-const POOL_ADDRESS_MAP = {
+const LP_TOKEN_ADDRESS_MAP = {
   "0xc28df698475dec994be00c9c9d8658a548e6304f" : "BTC",
   "0x76204f8cfe8b95191a3d1cfa59e267ea65e06fac" : "USD",
   "0xe37e2a01fea778bc1717d72bd9f018b6a6b241d5" : "vETH2",
@@ -80,7 +80,7 @@ function processMinting(
     new Date(block_timestamp).getTime() / 1000,
   )
 
-  tokens[POOL_ADDRESS_MAP[token]] = tokens[POOL_ADDRESS_MAP[token]].add(amount)
+  tokens[LP_TOKEN_ADDRESS_MAP[token]] = tokens[LP_TOKEN_ADDRESS_MAP[token]].add(amount)
   if (address_to in holders) {
     const { lastLPAmountSaved, firstObservedTimestamp } = holders[address_to]
 
@@ -115,7 +115,7 @@ function processBurning(
     throw `user burned (${amount}) more than they had (${lastLPAmountSaved})`
   }
 
-  tokens[POOL_ADDRESS_MAP[token]] = tokens[POOL_ADDRESS_MAP[token]].sub(amount)
+  tokens[LP_TOKEN_ADDRESS_MAP[token]] = tokens[LP_TOKEN_ADDRESS_MAP[token]].sub(amount)
   holders[address_from] = {
     lastLPAmountSaved: lastLPAmountSaved.sub(amount),
     lastActionTimestamp: currentTimestamp,
@@ -244,15 +244,15 @@ async function processAllLogs() {
 
       // Process minting before burning
       for (const log of [...minting, ...transfers]) {
-        const holders = allHolders[POOL_ADDRESS_MAP[log.token]]
+        const holders = allHolders[LP_TOKEN_ADDRESS_MAP[log.token]]
         processMinting(holders, lpTokens, log)
-        allHolders[POOL_ADDRESS_MAP[log.token]] = holders
+        allHolders[LP_TOKEN_ADDRESS_MAP[log.token]] = holders
       }
 
       for (const log of [...burning, ...transfers]) {
-        const holders = allHolders[POOL_ADDRESS_MAP[log.token]]
+        const holders = allHolders[LP_TOKEN_ADDRESS_MAP[log.token]]
         processBurning(holders, lpTokens, log)
-        allHolders[POOL_ADDRESS_MAP[log.token]] = holders
+        allHolders[LP_TOKEN_ADDRESS_MAP[log.token]] = holders
       }
     } else {
       // If there were no logs for a particular block we don't have the unix timestamp, so estimate it
