@@ -32,7 +32,7 @@ BEGIN
                    address = '0xe37e2a01fea778bc1717d72bd9f018b6a6b241d5' OR -- vETH2 lp token
                    address = '0xc9da65931abf0ed1b74ce5ad8c041c4220940368' OR -- alETH lp token
                    address = '0xd48cf4d7fb0824cc8bae055df3092584d0a1726a' OR -- d4 lp token
-                   address = '0xd48cf4d7fb0824cc8bae055df3092584d0a1726a' OR -- USD v2 lp token
+                   address = '0x5f86558387293b6009d7896a61fcc86c17808d62' OR -- USD v2 lp token
                    address = '0x8fa31c1b33de16bf05c38af20329f22d544ad64c' OR -- sUSD metapool lp token
                    address = '0xf32e91464ca18fc156ab97a697d6f8ae66cd21a3' OR -- BTC v2 lp token
                    address = '0x122eca07139eb368245a29fb702c9ff11e9693b7' OR -- tBTC metapool lp token
