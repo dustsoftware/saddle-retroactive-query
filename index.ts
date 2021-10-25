@@ -11,9 +11,9 @@ import readline from "readline"
 const START_BLOCK = 11686727
 const START_BLOCK_TS = 1611072272
 const GUARDED_LAUNCH_END_BLOCK = 11909762 // https://etherscan.io/tx/0xedc38ea0b5f1cc740c6659cdecdc5b379bcd77b1eae59709d41e9811b92a4d66
-const END_BLOCK = 12923115
+const END_BLOCK = 13330090
 const AVERAGE_BLOCK_TIME = 13 // used to estimate the timestamps for blocks we do not have logs for
-const TOTAL_LP_TOKENS = 120_000_000
+const TOTAL_LP_TOKENS = 100_000_000
 // Double count the guarded launch since LP'ing during counts for 2X the duration
 const TOTAL_BLOCKS =
   END_BLOCK - START_BLOCK + (GUARDED_LAUNCH_END_BLOCK - START_BLOCK)
@@ -21,17 +21,28 @@ const TOKENS_PER_BLOCK = ethers.utils.parseUnits(
   String(TOTAL_LP_TOKENS / TOTAL_BLOCKS),
   18,
 )
+const LP_TOKEN_ADDRESS_MAP = {
+  "0xc28df698475dec994be00c9c9d8658a548e6304f" : "BTC",
+  "0x76204f8cfe8b95191a3d1cfa59e267ea65e06fac" : "USD",
+  "0xe37e2a01fea778bc1717d72bd9f018b6a6b241d5" : "vETH2",
+  "0xc9da65931abf0ed1b74ce5ad8c041c4220940368" : "alETH",
+  "0xd48cf4d7fb0824cc8bae055df3092584d0a1726a" : "d4",
+  "0x5f86558387293b6009d7896a61fcc86c17808d62" : "USDv2",
+  "0x8fa31c1b33de16bf05c38af20329f22d544ad64c" : "sUSD",
+  "0xf32e91464ca18fc156ab97a697d6f8ae66cd21a3" : "BTCv2",
+  "0x122eca07139eb368245a29fb702c9ff11e9693b7" : "tBTCv2",
+  "0x78179d49c13c4eca14c69545ec172ba0179eae6b" : "WCUSD"
+}
 
 const lpTransferLogs: LPTransferLog[] = data["default"]
 
 interface LPTransferLog {
   block_number: number
   block_timestamp: string
-  transaction_hash: string
   address_from: string
   address_to: string
   amount: string
-  pool: string
+  token: string
 }
 
 interface Holders {
@@ -64,12 +75,12 @@ function processMinting(
   tokens: TotalPoolLPTokens,
   log: LPTransferLog,
 ) {
-  const { block_timestamp, pool, amount, address_to } = log
+  const { block_timestamp, token, amount, address_to } = log
   const currentTimestamp = Math.round(
     new Date(block_timestamp).getTime() / 1000,
   )
 
-  tokens[pool] = tokens[pool].add(amount)
+  tokens[LP_TOKEN_ADDRESS_MAP[token]] = tokens[LP_TOKEN_ADDRESS_MAP[token]].add(amount)
   if (address_to in holders) {
     const { lastLPAmountSaved, firstObservedTimestamp } = holders[address_to]
 
@@ -94,7 +105,7 @@ function processBurning(
   tokens: TotalPoolLPTokens,
   log: LPTransferLog,
 ) {
-  const { block_timestamp, pool, amount, address_from } = log
+  const { block_timestamp, token, amount, address_from } = log
   const { lastLPAmountSaved, firstObservedTimestamp } = holders[address_from]
   const currentTimestamp = Math.round(
     new Date(block_timestamp).getTime() / 1000,
@@ -104,7 +115,7 @@ function processBurning(
     throw `user burned (${amount}) more than they had (${lastLPAmountSaved})`
   }
 
-  tokens[pool] = tokens[pool].sub(amount)
+  tokens[LP_TOKEN_ADDRESS_MAP[token]] = tokens[LP_TOKEN_ADDRESS_MAP[token]].sub(amount)
   holders[address_from] = {
     lastLPAmountSaved: lastLPAmountSaved.sub(amount),
     lastActionTimestamp: currentTimestamp,
@@ -160,6 +171,11 @@ async function processAllLogs() {
     vETH2: {},
     alETH: {},
     d4: {},
+    USDv2:{},
+    sUSD: {},
+    BTCv2: {},
+    tBTCv2: {},
+    WCUSD: {},
   }
   const lpTokens: TotalPoolLPTokens = {
     BTC: BigNumber.from(0),
@@ -167,6 +183,11 @@ async function processAllLogs() {
     vETH2: BigNumber.from(0),
     alETH: BigNumber.from(0),
     d4: BigNumber.from(0),
+    USDv2: BigNumber.from(0),
+    sUSD: BigNumber.from(0),
+    BTCv2: BigNumber.from(0),
+    tBTCv2: BigNumber.from(0),
+    WCUSD: BigNumber.from(0),
   }
   const rewards: { [address: string]: BigNumber } = {}
 
@@ -223,15 +244,15 @@ async function processAllLogs() {
 
       // Process minting before burning
       for (const log of [...minting, ...transfers]) {
-        const holders = allHolders[log.pool]
+        const holders = allHolders[LP_TOKEN_ADDRESS_MAP[log.token]]
         processMinting(holders, lpTokens, log)
-        allHolders[log.pool] = holders
+        allHolders[LP_TOKEN_ADDRESS_MAP[log.token]] = holders
       }
 
       for (const log of [...burning, ...transfers]) {
-        const holders = allHolders[log.pool]
+        const holders = allHolders[LP_TOKEN_ADDRESS_MAP[log.token]]
         processBurning(holders, lpTokens, log)
-        allHolders[log.pool] = holders
+        allHolders[LP_TOKEN_ADDRESS_MAP[log.token]] = holders
       }
     } else {
       // If there were no logs for a particular block we don't have the unix timestamp, so estimate it
