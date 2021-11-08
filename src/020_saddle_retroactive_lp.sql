@@ -39,7 +39,7 @@ BEGIN
                    address = '0x78179d49c13c4eca14c69545ec172ba0179eae6b')   -- wCUSD metapool lp token
               AND topics[SAFE_OFFSET(0)] =
                   '0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef' -- "Transfer" event
-              AND block_number <= 13330090 -- 2021-10-01 00:00:00
+              AND block_number <= 13527859 -- 2021-11-01 00:00:07 UTC
         );
 
 END;

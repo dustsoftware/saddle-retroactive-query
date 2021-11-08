@@ -19,6 +19,7 @@ BEGIN
     AS
         (
             SELECT logs.address                                                  as pool,
+                   logs.block_timestamp                                          as block_timestamp,
                    PARSE_SADDLE_SWAP_EVENTS(logs.data, logs.topics).buyer        as buyer,
                    PARSE_SADDLE_SWAP_EVENTS(logs.data, logs.topics).tokensSold   as tokensSold,
                    PARSE_SADDLE_SWAP_EVENTS(logs.data, logs.topics).tokensBought as tokensBought,
@@ -38,7 +39,7 @@ BEGIN
                    address = '0x3f1d224557afa4365155ea77ce4bc32d5dae2174')   -- WCUSD metapool
               AND topics[SAFE_OFFSET(0)] =
                   '0xc6c1e0630dbe9130cc068028486c0d118ddcea348550819defd5cb8c257f8a38' -- "TokenSwap" event
-              AND block_number <= 13330090 -- 2021-10-01 00:00:00
+              AND block_number <= 13330090 -- 2021-10-01 00:00:00 UTC
         );
 
 END;
