@@ -9,14 +9,14 @@ interface SwapLog {
   pool: string
   block_timestamp: string
   buyer: string
-  tokenSold: string
-  tokenBought: string
+  tokensSold: string
+  tokensBought: string
   soldId: string
   boughtId: string
 }
 
 interface Swappers {
-  [address: string]: BigNumber
+  [address: string]: number
 }
 
 interface MinutePriceData {
@@ -56,6 +56,10 @@ const POOL_ASSET_DECIMAL_MAP = {
   "0x3f1d224557afa4365155ea77ce4bc32d5dae2174" : [18, 18]
 }
 
+function prettyStringify(json: any) {
+  return JSON.stringify(json, null, "    ")
+}
+
 async function loadPriceData(): Promise<PriceData> {
   const data: PriceData = {}
   const rl = readline.createInterface({
@@ -84,7 +88,7 @@ async function loadPriceData(): Promise<PriceData> {
 }
 
 function getTokenPrice(pool: string, priceData: MinutePriceData): BigNumber {
-  let tokenPrice = BigNumber.from(1)
+  let tokenPrice = BigNumber.from(100)
   if (pool.includes("BTC")) {
     tokenPrice = ethers.utils.parseUnits(priceData.BTC, 2)
   } else if (pool.includes("ETH")) {
@@ -108,24 +112,31 @@ async function processSwaps() {
     const parsed = Date.parse(swapLog.block_timestamp) / 1000
     ts = parsed - (parsed % 60)
 
-    console.log(ts)
-
     const tokenPrice = getTokenPrice(POOL_ADDRESS_MAP[swapLog.pool], priceData[ts])
-    const soldValue =
-      BigNumber.from(swapLog.tokenSold).mul(tokenPrice)
-        .div(
-          BigNumber.from(10).pow(POOL_ASSET_DECIMAL_MAP[swapLog.pool][swapLog.soldId])
-        )
+    const tokenSold = ethers.utils.formatUnits(swapLog.tokensSold, POOL_ASSET_DECIMAL_MAP[swapLog.pool][parseInt(swapLog.soldId)])
+    const soldValue = parseFloat(tokenSold) * tokenPrice.toNumber() / 100
+
+    console.log(`${swapLog.buyer} sold ${tokenSold} ${POOL_ADDRESS_MAP[swapLog.pool]}`)
 
     // First time a swap happened from the address
     if (!swappers.hasOwnProperty(swapLog.buyer)) {
       swappers[swapLog.buyer] = soldValue
     } else {
-      swappers[swapLog.buyer] = swappers[swapLog.buyer].add(soldValue)
+      swappers[swapLog.buyer] = swappers[swapLog.buyer] + soldValue
     }
-
-    console.log(`${swapLog.buyer} SOLD total ${swappers[swapLog.buyer]}`)
   }
+
+  // Sort by total dollar value swapped amounts
+  const output = Object.entries(swappers)
+    .sort(([,a],[,b]) => a-b)
+    .reduce((r, [k, v]) => ({ ...r, [k]: v }), {});
+
+  // Write the addresses object as JSON
+  await fs.promises.writeFile(
+    "./json/retroactive_swap_addresses.json",
+    prettyStringify(output),
+    "utf8",
+  )
 }
 
 processSwaps()
