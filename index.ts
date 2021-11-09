@@ -155,7 +155,7 @@ async function loadPriceData(): Promise<PriceData> {
 }
 
 function getTokenPrice(pool: string, priceData: MinutePriceData): BigNumber {
-  let tokenPrice = BigNumber.from(1)
+  let tokenPrice = BigNumber.from(100)
   if (pool.includes("BTC")) {
     tokenPrice = ethers.utils.parseUnits(priceData.BTC, 2)
   } else if (pool.includes("ETH")) {
