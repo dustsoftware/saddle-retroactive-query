@@ -108,20 +108,23 @@ async function processSwaps() {
       throw `could not recognize pool address ${swapLog.pool}`
     }
 
+    // Get timestamp by 1 minute interval
     let ts: number
     const parsed = Date.parse(swapLog.block_timestamp) / 1000
     ts = parsed - (parsed % 60)
 
+    // Calculate USD value of the tokens sold by the given address
     const tokenPrice = getTokenPrice(POOL_ADDRESS_MAP[swapLog.pool], priceData[ts])
     const tokenSold = ethers.utils.formatUnits(swapLog.tokensSold, POOL_ASSET_DECIMAL_MAP[swapLog.pool][parseInt(swapLog.soldId)])
     const soldValue = parseFloat(tokenSold) * tokenPrice.toNumber() / 100
 
     console.log(`${swapLog.buyer} sold ${tokenSold} ${POOL_ADDRESS_MAP[swapLog.pool]}`)
 
-    // First time a swap happened from the address
     if (!swappers.hasOwnProperty(swapLog.buyer)) {
+      // First time a swap happened from the address
       swappers[swapLog.buyer] = soldValue
     } else {
+      // Else sum up the previous value
       swappers[swapLog.buyer] = swappers[swapLog.buyer] + soldValue
     }
   }
