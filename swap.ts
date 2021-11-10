@@ -5,6 +5,10 @@ import { BigNumber, ethers } from "ethers"
 import fs from "fs"
 import readline from "readline"
 
+// 1% of 1B tokens is split between people who swapped through Saddle based on swap sizes
+const TOTAL_REWARD_TOKENS = 10_000_000
+const TOTAL_REWARD_TOKENS_BIGNUMBER = ethers.utils.parseUnits(TOTAL_REWARD_TOKENS.toString(), 18)
+
 interface SwapLog {
   pool: string
   block_timestamp: string
@@ -101,6 +105,7 @@ async function processSwaps() {
   const swappers: Swappers = {}
   const priceData = await loadPriceData()
 
+  let totalSwapValue = 0
   for (const swapLog of swapLogs) {
 
     // Sanity check pool addresses
@@ -116,7 +121,7 @@ async function processSwaps() {
     // Calculate USD value of the tokens sold by the given address
     const tokenPrice = getTokenPrice(POOL_ADDRESS_MAP[swapLog.pool], priceData[ts])
     const tokenSold = ethers.utils.formatUnits(swapLog.tokensSold, POOL_ASSET_DECIMAL_MAP[swapLog.pool][parseInt(swapLog.soldId)])
-    const soldValue = parseFloat(tokenSold) * tokenPrice.toNumber() / 100
+    const soldValue = (parseFloat(tokenSold) * tokenPrice.toNumber() / 100)
 
     console.log(`${swapLog.buyer} sold ${tokenSold} ${POOL_ADDRESS_MAP[swapLog.pool]}`)
 
@@ -127,16 +132,40 @@ async function processSwaps() {
       // Else sum up the previous value
       swappers[swapLog.buyer] = swappers[swapLog.buyer] + soldValue
     }
+    totalSwapValue += soldValue
   }
 
   // Sort by total dollar value swapped amounts
   const output = Object.entries(swappers)
-    .sort(([,a],[,b]) => a-b)
+    .sort(([,a],[,b]) => b-a)
     .reduce((r, [k, v]) => ({ ...r, [k]: v }), {});
 
   // Write the addresses object as JSON
   await fs.promises.writeFile(
     "./json/retroactive_swap_addresses.json",
+    prettyStringify(output),
+    "utf8",
+  )
+
+  // Calculate how much each address should get based on swap value
+  let totalRewards = BigNumber.from(0)
+  for (const [address, swapValue] of Object.entries(output)) {
+    const reward = TOTAL_REWARD_TOKENS_BIGNUMBER
+      .mul(ethers.utils.parseUnits(swapValue.toString(), 18))
+      .div(ethers.utils.parseUnits(totalSwapValue.toString(), 18))
+    totalRewards = totalRewards.add(reward)
+    output[address] = reward.toString()
+  }
+
+  // Sanity check rewards
+  console.assert(
+    totalRewards.eq(TOTAL_REWARD_TOKENS_BIGNUMBER),
+    `rewards did not match (got, expected): ${totalRewards.toString()}, ${TOTAL_REWARD_TOKENS_BIGNUMBER.toString()}`,
+  )
+
+  // Write the addresses object as JSON
+  await fs.promises.writeFile(
+    "./json/retroactive_swap_rewards.json",
     prettyStringify(output),
     "utf8",
   )
