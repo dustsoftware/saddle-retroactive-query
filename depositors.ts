@@ -7,6 +7,7 @@ import readline from "readline"
 
 // 0.5% of 1B tokens is allocated to be split pro-rata between impacted early depositors
 const TOTAL_REWARD_TOKENS = 5_000_000
+const TOTAL_REWARD_TOKENS_BIGNUMBER = ethers.utils.parseUnits(TOTAL_REWARD_TOKENS.toString(), 18)
 
 function prettyStringify(json: any) {
   return JSON.stringify(json, null, "    ")
@@ -20,39 +21,33 @@ async function processEarlyDepositors() {
   })
 
   // address,contribution,received,slippage,slippage_percent,renbtc,wbtc
-  let totalSlippage = 0
-  const rows: { [address: string]: number } = {}
+  let totalSlippage = BigNumber.from(0)
+  const rows: { [address: string]: BigNumber } = {}
   for await (const line of rl) {
     const [rawAddress, , , rawSlippage, , ,] = line.split(",")
     const address = rawAddress.replace("\\", "0")
-    const slippage = Number(rawSlippage)
+    const slippage = ethers.utils.parseUnits(rawSlippage, 18)
     if (rows[address]) {
-      rows[address] += slippage
+      rows[address] = rows[address].add(slippage)
     } else {
       rows[address] = slippage
     }
-    totalSlippage += slippage
+    totalSlippage = totalSlippage.add(slippage)
   }
 
-  console.log(`Total slippage: ${totalSlippage}`)
+  console.log(`Total slippage: ${ethers.utils.formatUnits(totalSlippage, 18)} BTC`)
 
   let totalRewards = BigNumber.from(0)
   for (const [address, slippage] of Object.entries(rows)) {
-    const reward = ethers.utils.parseUnits(
-      String((slippage / totalSlippage) * TOTAL_REWARD_TOKENS),
-      18,
-    )
+    const reward = TOTAL_REWARD_TOKENS_BIGNUMBER.mul(slippage).div(totalSlippage)
     totalRewards = totalRewards.add(reward)
     output[address] = reward.toString()
   }
 
   // Sanity check the results
   console.assert(
-    ethers.utils.formatUnits(totalRewards, 18) === String(TOTAL_REWARD_TOKENS),
-    `rewards did not match (got, expected): ${ethers.utils.formatUnits(
-      totalRewards,
-      18,
-    )}, ${TOTAL_REWARD_TOKENS}`,
+    totalRewards.eq(TOTAL_REWARD_TOKENS_BIGNUMBER),
+    `rewards did not match (got, expected): ${totalRewards.toString()}, ${TOTAL_REWARD_TOKENS_BIGNUMBER.toString()}`,
   )
 
   // Write the rewards object as JSON
