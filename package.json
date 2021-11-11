@@ -9,6 +9,7 @@
     "parse-eps": "ts-node eps.ts",
     "parse-depositors": "ts-node depositors.ts",
     "parse-multisig": "ts-node multisig.ts",
+    "merge": "ts-node merge.ts",
     "lint": "eslint --ext ts *.ts && prettier --list-different *.ts",
     "lint:fix": "eslint --ext ts --fix *.ts && prettier --write *.ts"
   },
