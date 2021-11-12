@@ -11,9 +11,9 @@ import readline from "readline"
 const START_BLOCK = 11686727
 const START_BLOCK_TS = 1611072272
 const GUARDED_LAUNCH_END_BLOCK = 11909762 // https://etherscan.io/tx/0xedc38ea0b5f1cc740c6659cdecdc5b379bcd77b1eae59709d41e9811b92a4d66
-const END_BLOCK = 13330090
+const END_BLOCK = 13527859
 const AVERAGE_BLOCK_TIME = 13 // used to estimate the timestamps for blocks we do not have logs for
-const TOTAL_LP_TOKENS = 100_000_000
+const TOTAL_LP_TOKENS = 105_000_000
 // Double count the guarded launch since LP'ing during counts for 2X the duration
 const TOTAL_BLOCKS =
   END_BLOCK - START_BLOCK + (GUARDED_LAUNCH_END_BLOCK - START_BLOCK)
