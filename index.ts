@@ -36,20 +36,24 @@ const LP_TOKEN_ADDRESS_MAP = new Map(
   }),
 )
 
-const STAKING_CONTRACT_ADDRESSES = [
+const STAKING_CONTRACT_ADDRESSES = new Set([
   "0x78aa83bd6c9de5de0a2231366900ab060a482edd", // BTC pool staking for KEEP rewards
   "0xab8e74017a8cc7c15ffccd726603790d26d7deca", // alETH pool staking for ALCX rewards
   "0x0639076265e9f88542c91dcdeda65127974a5ca5", // d4 communal farm
   "0xcf91812631e37c01c443a4fa02dfb59ee2ddba7c", // vETH2 staking for SGT
   "0x6ad9e8e5236c0e2cf6d755bb7be4eabcbc03f76d", // tBTCv2 metapool staking for KEEP rewards
   "0x6f27c4e4888a7090cad2e1b82d6e02ebb4fa06ec", // vETH2 masterchef
+  "0x6847259b2b3a4c17e7c43c54409810af48ba5210", // pickle controller
   "0xe6487033f5c8e2b4726af54ca1449fec18bd1484", // pickling d4
-  "0x6847259b2b3a4c17e7c43c54409810af48ba5210", // pickling d4 strategy
-]
+  "0x4a974495e20a8e0f5ce1de59eb15cfffd19bcf8d", // StrategySaddleD4
+  "0x4f1f43b54a1d88024d26ad88914e6fcfe0024cb6", // StrategySaddleD4
+  "0xcf40e2d98b5fa0c666a6565558ad20b3f6742d46", // pickling saddlealeth
+  "0x0185ee1a1101f9c43c6a33a48faa7edb102f1e30", // StrategySaddleAlethEth
+])
 
-const METAPOOL_ADDRESSES = [
+const METAPOOL_ADDRESSES = new Set([
   "0xf74ebe6e5586275dc4ced78f5dbef31b1efbe7a5", "0x0c8bae14c9f9bf2c953997c881befac7729fd314", "0x3f1d224557afa4365155ea77ce4bc32d5dae2174"
-]
+])
 
 const lpTransferLogs: LPTransferLog[] = data["default"]
 
@@ -275,8 +279,8 @@ async function processAllLogs() {
         (log) =>
           log.address_from !== "0x0000000000000000000000000000000000000000" &&
           log.address_to !== "0x0000000000000000000000000000000000000000" &&
-          !STAKING_CONTRACT_ADDRESSES.includes(log.address_from) &&
-          !STAKING_CONTRACT_ADDRESSES.includes(log.address_to),
+          !STAKING_CONTRACT_ADDRESSES.has(log.address_from) &&
+          !STAKING_CONTRACT_ADDRESSES.has(log.address_to),
       )
 
       // Process minting before burning
@@ -328,7 +332,7 @@ async function processAllLogs() {
     for (const [pool, holders] of allHolders) {
       for (const [address, holderData] of holders) {
         // Dont give rewards to the metapool addresses
-        if (METAPOOL_ADDRESSES.includes(address)) {
+        if (METAPOOL_ADDRESSES.has(address)) {
           continue
         }
 
