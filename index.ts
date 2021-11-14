@@ -48,6 +48,7 @@ const STAKING_CONTRACT_ADDRESSES = new Set([
   "0x4a974495e20a8e0f5ce1de59eb15cfffd19bcf8d", // StrategySaddleD4
   "0x4f1f43b54a1d88024d26ad88914e6fcfe0024cb6", // StrategySaddleD4
   "0xcf40e2d98b5fa0c666a6565558ad20b3f6742d46", // pickling saddlealeth
+  "0xcba1fe4fdbd90531efd929f1a1831f38e91cff1e", // pickling saddlealeth
   "0x0185ee1a1101f9c43c6a33a48faa7edb102f1e30", // StrategySaddleAlethEth
 ])
 
@@ -121,7 +122,7 @@ function processBurning(
   tokens: TotalPoolLPTokens,
   log: LPTransferLog,
 ) {
-  const { block_timestamp, token, amount, address_from } = log
+  const { block_timestamp, token, amount, address_from, address_to } = log
 
   if (!holders.has(address_from)) {
     console.log(`Something went wrong. Could not identify minting!`)
@@ -142,9 +143,8 @@ function processBurning(
 
   if (holderData.lastLPAmountSaved.lt(amount)) {
     console.warn(
-      `user burned (${amount}) more than they had (${holderData.lastLPAmountSaved})`,
+      `${address_from} => ${address_to} sent (${amount}) more than they had (${holderData.lastLPAmountSaved})`,
     )
-    console.log(log)
     thisLPAmount = BigNumber.from(0)
   } else {
     thisLPAmount = holderData.lastLPAmountSaved.sub(amount)
@@ -196,6 +196,14 @@ function getTokenPrice(pool: string, priceData: MinutePriceData): BigNumber {
     tokenPrice = ethers.utils.parseUnits(priceData.ETH, 2)
   }
   return tokenPrice
+}
+
+function scaleByTotalRewards(output: { [address: string]: string }, totalDistributedRewards) {
+  const totalLPTokensBigNumber = ethers.utils.parseUnits(TOTAL_LP_TOKENS.toString(), 18)
+
+  for (const address in output) {
+    output[address] = BigNumber.from(output[address]).mul(totalLPTokensBigNumber).div(totalDistributedRewards).toString()
+  }
 }
 
 async function processAllLogs() {
@@ -337,15 +345,13 @@ async function processAllLogs() {
         }
 
         // Give rewards to users
-        const userLPAmount = holderData.lastLPAmountSaved
-
-        let prevBalance = BigNumber.from(0)
-        if (rewards.has(address)) {
-          prevBalance = rewards.get(address)
+        let prevBalance = rewards.get(address)
+        if (prevBalance === undefined) {
+          prevBalance = BigNumber.from(0)
         }
 
         rewards.set(address, prevBalance.add(
-          userLPAmount.mul(tokenPrices.get(pool)).mul(reward).div(totalUSDTVL),
+          holderData.lastLPAmountSaved.mul(tokenPrices.get(pool)).mul(reward).div(totalUSDTVL),
         ))
       }
     }
@@ -372,6 +378,8 @@ async function processAllLogs() {
       18,
     )}, ${TOTAL_LP_TOKENS}`,
   )
+
+  scaleByTotalRewards(output, totalRewardsDistributed)
 
   // Sort by total dollar value swapped amounts
   const sortedOutput = Object.entries(output)
