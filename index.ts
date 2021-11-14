@@ -53,7 +53,9 @@ const STAKING_CONTRACT_ADDRESSES = new Set([
 ])
 
 const METAPOOL_ADDRESSES = new Set([
-  "0xf74ebe6e5586275dc4ced78f5dbef31b1efbe7a5", "0x0c8bae14c9f9bf2c953997c881befac7729fd314", "0x3f1d224557afa4365155ea77ce4bc32d5dae2174"
+  "0xf74ebe6e5586275dc4ced78f5dbef31b1efbe7a5",
+  "0x0c8bae14c9f9bf2c953997c881befac7729fd314",
+  "0x3f1d224557afa4365155ea77ce4bc32d5dae2174",
 ])
 
 const lpTransferLogs: LPTransferLog[] = data["default"]
@@ -100,7 +102,10 @@ function processMinting(
     new Date(block_timestamp).getTime() / 1000,
   )
 
-  tokens.set(LP_TOKEN_ADDRESS_MAP.get(token), tokens.get(LP_TOKEN_ADDRESS_MAP.get(token)).add(amount))
+  tokens.set(
+    LP_TOKEN_ADDRESS_MAP.get(token),
+    tokens.get(LP_TOKEN_ADDRESS_MAP.get(token)).add(amount),
+  )
   if (holders.has(address_to)) {
     const holderData = holders.get(address_to)
 
@@ -198,11 +203,20 @@ function getTokenPrice(pool: string, priceData: MinutePriceData): BigNumber {
   return tokenPrice
 }
 
-function scaleByTotalRewards(output: { [address: string]: string }, totalDistributedRewards) {
-  const totalLPTokensBigNumber = ethers.utils.parseUnits(TOTAL_LP_TOKENS.toString(), 18)
+function scaleByTotalRewards(
+  output: { [address: string]: string },
+  totalDistributedRewards,
+) {
+  const totalLPTokensBigNumber = ethers.utils.parseUnits(
+    TOTAL_LP_TOKENS.toString(),
+    18,
+  )
 
   for (const address in output) {
-    output[address] = BigNumber.from(output[address]).mul(totalLPTokensBigNumber).div(totalDistributedRewards).toString()
+    output[address] = BigNumber.from(output[address])
+      .mul(totalLPTokensBigNumber)
+      .div(totalDistributedRewards)
+      .toString()
   }
 }
 
@@ -210,15 +224,15 @@ async function processAllLogs() {
   const allHolders: AllHolders = new Map<string, Holders>(
     Object.entries({
       BTC: new Map(),
-      USD:  new Map(),
-      vETH2:  new Map(),
-      alETH:  new Map(),
-      d4:  new Map(),
-      USDv2:  new Map(),
-      sUSD:  new Map(),
-      BTCv2:  new Map(),
-      tBTCv2:  new Map(),
-      WCUSD:  new Map(),
+      USD: new Map(),
+      vETH2: new Map(),
+      alETH: new Map(),
+      d4: new Map(),
+      USDv2: new Map(),
+      sUSD: new Map(),
+      BTCv2: new Map(),
+      tBTCv2: new Map(),
+      WCUSD: new Map(),
     }),
   )
   const lpTokens: TotalPoolLPTokens = new Map<string, BigNumber>(
@@ -323,10 +337,9 @@ async function processAllLogs() {
       // Account for double counting assets inside meta pool
       for (const metapoolAddress of METAPOOL_ADDRESSES) {
         if (holders.has(metapoolAddress)) {
-          const metapoolBaseLPAmount = holders.get(metapoolAddress).lastLPAmountSaved
-          totalUSDTVL = totalUSDTVL.sub(
-            metapoolBaseLPAmount.mul(tokenPrice),
-          )
+          const metapoolBaseLPAmount =
+            holders.get(metapoolAddress).lastLPAmountSaved
+          totalUSDTVL = totalUSDTVL.sub(metapoolBaseLPAmount.mul(tokenPrice))
         }
       }
     }
@@ -350,9 +363,15 @@ async function processAllLogs() {
           prevBalance = BigNumber.from(0)
         }
 
-        rewards.set(address, prevBalance.add(
-          holderData.lastLPAmountSaved.mul(tokenPrices.get(pool)).mul(reward).div(totalUSDTVL),
-        ))
+        rewards.set(
+          address,
+          prevBalance.add(
+            holderData.lastLPAmountSaved
+              .mul(tokenPrices.get(pool))
+              .mul(reward)
+              .div(totalUSDTVL),
+          ),
+        )
       }
     }
   }
