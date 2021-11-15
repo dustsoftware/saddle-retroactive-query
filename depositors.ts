@@ -7,7 +7,10 @@ import readline from "readline"
 
 // 0.5% of 1B tokens is allocated to be split pro-rata between impacted early depositors
 const TOTAL_REWARD_TOKENS = 5_000_000
-const TOTAL_REWARD_TOKENS_BIGNUMBER = ethers.utils.parseUnits(TOTAL_REWARD_TOKENS.toString(), 18)
+const TOTAL_REWARD_TOKENS_BIGNUMBER = ethers.utils.parseUnits(
+  TOTAL_REWARD_TOKENS.toString(),
+  18,
+)
 
 function prettyStringify(json: any) {
   return JSON.stringify(json, null, "    ")
@@ -35,11 +38,14 @@ async function processEarlyDepositors() {
     totalSlippage = totalSlippage.add(slippage)
   }
 
-  console.log(`Total slippage: ${ethers.utils.formatUnits(totalSlippage, 18)} BTC`)
+  console.log(
+    `Total slippage: ${ethers.utils.formatUnits(totalSlippage, 18)} BTC`,
+  )
 
   let totalRewards = BigNumber.from(0)
   for (const [address, slippage] of Object.entries(rows)) {
-    const reward = TOTAL_REWARD_TOKENS_BIGNUMBER.mul(slippage).div(totalSlippage)
+    const reward =
+      TOTAL_REWARD_TOKENS_BIGNUMBER.mul(slippage).div(totalSlippage)
     totalRewards = totalRewards.add(reward)
     output[address] = reward.toString()
   }
